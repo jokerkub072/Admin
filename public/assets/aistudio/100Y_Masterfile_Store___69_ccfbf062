@@ -1,0 +1,377 @@
+b ,ลำดับ,CODE,รายการอุปกรณ์,ตำแหน่งใช้งาน,,,,,,,,,หน่วย,MAX,MIN,ยอดยกมา,ยอดเบิกวัสดุประจำเดือน,,,,,,,,,,,,ยอดรับเข้า,ยอดเบิก,ยอดคงเหลือ,หมายเหตุ,,Vendor
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,เดือน,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,1,2,3,4,5,6,7,8,9,10,11,12,,,,แจ้งเตือน,Status,Supplier
+EE01,1,EE01-01,หลอดไฟ LED T8 / HIET / 18W / 3000K Warm White,,,,,,,,,,หลอด,100,25,2277,,,,,,,17,22,12,21,,,,72,2205,,ACTIV,Mega
+,2,EE01-02,หลอดไฟ LED T8 / FSL / 22W / 4000K Cool White,ห้องสำนักงาน,-,SIAMLED,Panel,60 W,220,4000K Cool White,-,60*60 cm.,หลอด,50,3,114,,,,,,,37,58,19,27,,,200,341,173,,ACTIV,แสงงาม
+,3,EE01-03,หลอดไฟ LED T8 / Delight / 18W / 6500K / Day Light,โถงลิฟท์/ห้อง VIP,-,FLS,มีกระจก,5 W,220,3000K Warm White/400lm,MR16,"2""",หลอด,50,5,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Mega
+,4,EE01-04,หลอดไฟ LED T8 / HIET / 9W / 3000K Warm White,ห้องประชุม,-,EVE,มีกระจก,4 W,220,6500K Day Light,GU10,"2""",หลอด,50,2,18,,,,,,,2,4,2,,,,6,14,16,,ACTIV,Mega
+,5,EE01-05,หลอดไฟ LED T8 / HIET / 9W / 4000K Cool White,หลังห้อง Gen,IP65,HiLUX,สปอตไลท์,50 W,220,6500K Day Light,-,18.5x16.3x3.5,หลอด,10,2,51,,,,,,,,,,,,,,0,51,Dead Stock,INACTIVE,Mega
+,6,EE01-06,หลอดไฟ LED T8 / HIET / 9W / 6500K Day Light,"กระถางต้นไม้,หน้าห้องคุณยายฯ",-,EVE,หลอดกลม,15 W,220,3000K Warm White,E27,-,หลอด,50,2,78,,,,,,,,11,1,,,,,12,66,,ACTIV,Mega
+,7,EE01-07,หลอดไฟ LED Strip light 12w / M ความยาว 2M ไฟหน้าโถงลิฟต์,ตึก 0 ชั้น 14,-,LUMAX,หลอดกลม,30 W,220,3000K Warm White,E27,-,หลอด,50,2,15,,,,,,,,1,,,,,,1,14,,ACTIV,ออนไลน์
+,8,EE01-08,หลอดไฟ LED Strip light 12w / M ความยาว 1.5M ไฟหน้าโถงลิฟต์,ไฟโหนด,-,L&E,-,3 W,24 dc,6500K Day Light,-,-,หลอด,50,2,15,,,,,,,,1,,,,,,1,14,,ACTIV,ออนไลน์
+,9,EE01-09,โคมไฟ LED Panel 60*60 cm T-Bar CCT : 6500 K 60W / OPPLE,โถงลิฟท์ ชั้น2,-,L&E,Downlight,16 W,220,3000K Warm White,-,"2""",หลอด,50,2,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,แสงงาม
+,10,EE01-10,โคมไฟ LED Panel 60*60cm T-Bar CCT:4000 K 60W / SIAMLED,หน้าโถงลิฟท์,-,L&E,Square Donwlight,16 W,220,4000K Cool White,-,"2""",หลอด,50,2,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,แสงงาม
+,11,EE01-11,หลอดไฟ LED Downligt โถงลิฟต์ / 5W / 220V / 3000K Warm White / FLS,หลอดไฟห้องน้ำ,-,PHILPS,หลอดกลม,8 W,220,6500K Day Light,E27,-,หลอด,50,2,120,,,,,,,20,13,1,5,,,,39,81,,ACTIV,แสงงาม
+,12,EE01-12,หลอดไฟ LED / 4W / 220V / 6500K Day Light / EVE,"ห้องคุณยายฯ,ห้องสำนักงาน,ห้องเทวสภา",-,FSL,T8,18 W,220,4000K Cool White,-,1.2 m.,หลอด,100,25,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,แสงงาม
+,13,EE01-13,โคมไฟ LED สปอตไลย์ / 50W / 220V / 6500k/Day Light / HiLUX,หลังห้องเทวสภา,-,RACER,Donwlight,24 W,220,3000K Warm White,-,"8""",หลอด,50,1,1,,,,1,,,,,,,,,,1,0,กรุณาสั่งซื้อEE01-13,ACTIV,แสงงาม
+,14,EE01-14,หลอดไฟ PAR38 LED/ 15W/220V/3000K/Warmwhite/E27/EVE/IP65,-,-,LUMAX,Square Donwlight,9 W,220,3000K Warm White,-,145x145x20 mm,หลอด,50,1,20,,,,,2,3,1,,,2,,,,8,12,,ACTIV,"Mega,แสงงาม"
+,15,EE01-15,หลอดไฟ LED / 30W / 220V / Warm White / LUMAX,ส่องโลโก้นกยุง,-,-,-,-,-,4000K Cool White,-,-,หลอด,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,แสงมิตร
+,16,EE01-16,หลอดไฟ LED ไฟโหนด / 3W / 24Vdc / Day Light / L&E,ไฟ parapet,-,L&E,Strip light,14.4 W,12 dc,3000K Warm White,แบบเสียบขั้ว,2 m.,หลอด,50,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,L&E
+,17,EE01-17,โคมไฟ LED Downlight / 16W / 220V / Warm White / L&E,ไฟส่องข้างกระถางต้นไม้,-,Unilamp,-,-,94 v,3000k,ขั้วเปือย,-,หลอด,5,1,5,,,,,,,1,,,,,,,1,4,,ACTIV,L&E
+,18,EE01-18,โคมไฟ LED Square Donwlight / 16W / 220V / 4000K Cool White /L&E,ใช้ในห้อง Pantry,-,LAMPTAN,-,9 W,220,2700K Warm White,แบบเสียบขั้ว,580 mm,หลอด,50,1,33,,,,,,,,,,,,,,0,33,Dead Stock,INACTIVE,L&E
+,19,EE01-19,หลอดไฟ LED / 8W / 220V / 6500K Day Light / PHILPS/E27 (หลอดไฟห้องน้ำ),ไม่ระบุ,-,Lekise,T5,9 W,220,4000K Cool White,ขั้วหมุน,-,หลอด,50,1,3,,,,,,,,5,18,12,,,196,35,164,,ACTIV,Mega
+,20,EE01-20,หลอดไฟ LED Downlight / 24W / 220V / 3000K Warm White / RACER ( หลังห้องเทวสภา),ไม่ระบุ,RA70,HIET,Panel,44 W,220,4000K Day Light,Driver,29.5x119.5 cm,หลอด,10,1,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,21,EE01-21,โคมไฟ LED Square Donwlight / 9W / 220V / 3000K Warm White / LUMAX,ไม่ระบุ,โคมฝังฝ้า,LAMPTAN,Panel,40 W,220,6500K Day Light,Driver,30x120 cm,หลอด,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,22,EE01-22,หลอดไฟ LED ส่องโลโก้นกยุง / 4000K,-,-,-,หลอดกลม Dimmable,-,-,3000K Warm White,E27,-,หลอด,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,แสงมิตร
+,23,EE01-23,หลอดไฟ LED Strip light / 14.4W / 12Vdc / 2M / 3000K Warm White / L&E,"ไฟทางเดิน,ไฟสำนักงาน,บันไดหนีไฟ",-,Delight,T8,18 W,220,6500K Day Light,-,1.2 m.,หลอด,100,25,39,,,,,,,,,,,,,,0,39,Dead Stock,INACTIVE,L&E
+,24,EE01-24,หลอดไฟ LED Unilamp,ไม่ระบุ,-,RACER,Downlight,6 W,220,3000K Warm White,ตัดต่อ,95x95 mm,หลอด,50,10,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,25,EE01-25,หลอดไฟ LED /LAMPTAN / 9W / 2700K / Warm White (ใช้ในห้อง Pantry),ไม่ระบุ,-,OSRAM,-,75 W,220,2700K Warm White,-,-,หลอด,5,1,41,,,,,,,,,,,,,,0,41,Dead Stock,INACTIVE,Mega
+,26,EE01-26,หลอดไฟ LED Tube / T5 / 4000K / Lekise,หลอดไฟห้องน้ำ เทวสภา,-,HIET,หลอดกลม,10 W,220,6500K Day Light,E27,-,หลอด,5,1,25,,,,,,,,1,,,,,,1,24,,ACTIV,Mega
+,27,EE01-27,หลอดไฟ LED PANEL / T-Bar / 44W / 220-240V / Daylight / Hiet,ไม่ระบุ,-,NANO-Q,สี่เหลี่ยม,12 W,220,6500K Day Light,Driver,14.5x14.5 cm,หลอด,0,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,28,EE01-28,หลอดไฟ LED PANEL / 40W / 220V / 6500K / LAMPTAN,ไม่ระบุ,-,Parathom,หลอดกลม Dimmable,75 w,220,2700K Warm White,E27,-,หลอด,0,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,29,EE01-29,หลอดไฟ LED Dimmable WarmWhite 3000K,หลอดไฟห้องน้ำเก่า,,PHILPS,หลอดกลม Dimmable,9.5 W,220,3000K Warm White,E27,-,หลอด,50,2,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,30,EE01-30,หลอดไฟ LED Downlight Recessed /WarmWhite 6W/ 3000k,ไม่ระบุ,-,PHILPS,Downlight,5 W,12 dc,2700 K Warm White,MR16,-,หลอด,-,1,37,,,,,,,,,,,,,,0,37,Dead Stock,INACTIVE,ออนไลน์
+,31,EE01-31,หลอดไฟ LED WarmWhite OSRAM/75W/2700K/633Im,ห้องนิติการ,-,LAMPTAN,Panel,42 W,220,6500K Day Light,Driver,30*120 cm.,หลอด,-,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,32,EE01-32,หลอดไฟ LED / 10W / 220V / 6500K Day Light / HIET (หลอดไฟห้องน้ำ เทวสภา),ไม่ระบุ,-,LAMPTAN,Panel,60 W,220,6500K Day Light,Driver,60*120 cm.,หลอด,-,1,97,,,,,,,8,8,,,,,,16,81,,ACTIV,"Mega,แสงงาม"
+,33,EE01-33,หลอดไฟ LED NANO-Q /12 W/220 V/6500K Day Light,ห้องสมุด ตึก0,-,RACER,Downlight,9 W,220,3000K Warm White,ขั้วเสียบ,125 mm,หลอด,-,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,58ไร่
+,34,EE01-34,หลอดไฟ Philips E27 LED Dimmable 2700K,"ไฟทางเดิน,ไฟสำนักงาน,บันไดหนีไฟ",-,HIET,T8,9 W,220,3000K Warm White,-,0.9 m.,หลอด,100,25,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,35,EE01-35,,ไม่ระบุ,-,HI-TEK,Square Donwlight,12 W,220,6500K Day Light,ขั้วเสียบ,14x14 cm,หลอด,-,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,
+,36,EE01-36,หลอดไฟ LED Down Light 12V/DC/5W/2700K,-,-,OSRAM,Downlight,5 W,220,6000K Cool White,MR16,-,หลอด,-,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,37,EE01-37,หลอดไฟ โคมฝังฝ้า LED Lamptan/42w/Daylight/4600lm/30x120 cm,ไม่ระบุ,-,SIAMLED,Panel,60 W,220,6500K Day Light,Driver,60*60 cm.,หลอด,-,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,38,EE01-38,หลอดไฟ โคมฝังฝ้า LED Lamptan/60w/Daylight/6500lm/60x120 cm,ไม่ระบุ,-,OPPLE,Panel,40 W,220,6500K Day Light,Driver,60*60 cm.,หลอด,-,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,39,EE01-39,หลอด Led ดาวไลท์แบบฝังฝ้า 9w./3000k/warm white,ไม่ระบุ,-,INTEGRATED,Panel,60 W,220,6500K Day Light,Driver,60*60 cm.,หลอด,-,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,40,EE01-40,หลอด Led Hi-Tek PANEL 12W/ 6500k/Daylight,ลานสาธุชน,-,PHILPS,Square Downlight,17 W,220,3000K Warm White,ขั้วเสียบ,15*15 cm.,หลอด,-,1,20,,,,,,,,,,,,,,0,20,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,41,EE01-41,หลอดไฟ LED DOWN LIGHT / ROBIN / 5W / 6000K / DAYLIGHT,ห้องเทวสภา,,EVE,Square Downlight,4 W,220,3000K Warm White,GU10,"2""",หลอด,-,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,58ไร่
+,42,EE01-42,หลอดไฟ LED Panel 60*60 cm T-Bar :6500K/60W/DAY LIGHT/SIAMLED,,,HI-TEK,Square Downlight,18 W,220,6500K Day Light,Driver,20x20 cm,หลอด,-,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,43,EE01-43,หลอดไฟ LED Panel 60*60 cm T-Bar :6500K/40W/OPPLE,-,-,HI-TEK,Square Downlight,18 W,220,3000K Warm White,Driver,20x20 cm,หลอด,-,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,44,EE01-44,หลอดไฟ LED Panel 60*60 cm T-Bar :6000K/60W/INTEGRATED,-,-,LUMAX,Panel,40 W,220,4000K Cool White,-,60*60 cm.,หลอด,-,1,2,,,,,,,,,1,,,,,1,1,,ACTIV,"Mega,แสงงาม"
+,45,EE01-45,โคมไฟฝังฝ้า ลานสาธุชน 17W/3000k/150x150,"ห้องคุณยายฯ,โถงทางเดิน,บันไดหนีไฟ",-,HIET,T8,9 W,220,4000K Cool White,-,0.9 m.,หลอด,100,25,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,46,EE01-46,หลอดไฟ LED EVE 4W/220V/3000K/Warmwhite,-,-,HI-TEK,Panel,40 W,220,6500K Day Light,Driver,60*60 cm.,หลอด,-,1,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,
+,47,EE01-47,หลอดไฟ LED HI-TEK/โคมพาแนล/220v/18w/6500k/Daylight,-,-,HI-TEK,Panel,40 W,220,6500K Day Light,Driver,30*120 cm.,หลอด,-,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,48,EE01-48,หลอดไฟ LED HI-TEK/โคมพาแนล/220v/18w/3000k/Warm white,-,-,PHILPS,Square Downlight,17 W,220,4000K Cool White,Driver,16.5x16.5 cm,หลอด,-,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,49,EE01-49,หลอดไฟ LED Panel 60*60cm T-Bar/40W/COOL WHITE/ LUMAX,-,-,HI-TEK,T8,20 W,220,6500K Day Light,-,1.2 m.,หลอด,-,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,50,EE01-50,หลอดไฟ LED Panel 60*60cm T-Bar/40W/6500K/DAY LIGHT/HI-TEK,-,,EXTRA SLIM,T5,14,220,4000K Cool White,ขั้วเสียบ,1.2 m.,ตัว,150,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,51,EE01-51,หลอดไฟ LED Panel 29.5*119.5cm T-Bar/40W/6500K/DAY LIGHT/HI-TEK,ไฟหลืบวันพระ,-,WRACER,T8,16,220,3000K Warm White,ขั้วเสียบ,1.2 m.,ตัว,60,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,52,EE01-52,หลอดไฟ LED Downlight /ทรงสี่เหลี่ยมฝังฝ้า/17W/Cool Daylight/Philips,"ไฟทางเดิน,ไฟสำนักงาน",-,OSRAM,T8,20 W,220,4000K Cool White,-,1.2 m.,หลอด,-,1,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,53,EE01-53,หลอดไฟ LED T8 / PHILIPS / 22W / 6500K / Day Light,ห้องฉายสื่อ,SATUEN-W-4-9W40K,SL LIGHTING,IP20,9 W.,220,4000 K Cool White,เสียบ,14.5x14.5x1.5 cm,หลอด,100,25,321,,,,,,,64,60,73,36,,,,233,88,,ACTIV,"Mega,แสงงาม"
+,54,EE01-54,หลอดไฟหลืบ LED T5 14W 4000K/COOL WHITE,ไฟใต้บันไดเลื่อน,PHOENIX5,HIET,I ROUND,5 W.,220,3000 K Warmwhite,เสียบ,-,หลอด,100,25,93,,,,,,,,,,,,,,0,93,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,55,EE01-55,หลอดไฟหลืบ LED T5 16W 3000K warm white,"ไฟทางเดิน,ไฟสำนักงาน,บันไดหนีไฟ",-,HIET,T8,9 W,220,6500K Day Light,-,0.9 m.,หลอด,100,25,114,,,,,,,1,,,,,,,1,113,,ACTIV,"Mega,แสงงาม"
+,56,EE01-56,หลอดไฟ LED T8 / OSRAM / 20W / 4000K Cool White,ไฟหน้าโถงลิฟต์,-,-,Strip light,12W / M,ไม่ระบุ,3000K Warm White,-,2 m.,หลอด,50,5,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,58ไร่
+,57,EE01-57,หลอดไฟ LED Downlight/220V/9W/4000K/Cool white/ทรงสี่เหลี่ยม,ไฟหน้าโถงลิฟต์,-,-,Strip light,12W / M,ไม่ระบุ,3000K Warm White,-,1.5 m.,หลอด,50,5,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+,58,EE01-58,หลอดไฟ Downlight I ROUND /5w/3000 K/Warmwhite,ไฟใต้้บันไดเลื่อน ตึก 0 ชั้น 2,-,OPPLE,Panel,60 W,220,6500K Day Light,-,60*60 cm.,หลอด,50,3,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,แสงงาม
+,59,EE01-59,"หลอดโคม Panel Circle LED EVE/7""/18w/6500k",ห้องพระผู้ใหญ่,-,EVE,Panel,18 W,220,6500K Day Light,-,7 นิ้ว,หลอด,5,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,แสงงาม
+,59,EE01-60,หลอดไฟ LED Downlight/7W/220V/4000K/MR16/(ห้องVIP),ห้องพระผู้ใหญ่,-,EVE,Panel,18 W,220,6500K Day Light,-,7 นิ้ว,หลอด,0,0,20,,,,,,,,,,,,,,0,20,Dead Stock,INACTIVE,แสงงาม
+EE02,60,EE02-01,Pilot Lamp ขนาด 22 mm . LED 220 V. สีแดง,ตู้ Control,ED16-22DS,PNC,-,20 mA,220,แดง,ขั้วเสียบ,22 mm,หลอด,50,1,6,,,,,,,1,,,,,,,1,5,,ACTIV,แสงงาม
+,61,EE02-02,Pilot Lamp ขนาด 22 mm . LED 220 V. สีเหลือง,ตู้ Control,XB7-EV0-BP,-,-,20 mA,220,เหลือง,ขั้วเสียบ,22mm,หลอด,50,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,แสงงาม
+,62,EE02-03,Pilot Lamp ขนาด 22 mm . LED 220 V. สีเขียว,ตู้ Control,XB7-EV0-MP,-,-,20 mA,220,เขียว,ขั้วเสียบ,22mm,หลอด,50,1,15,,,,,,,,,,,,,,0,15,Dead Stock,INACTIVE,แสงงาม
+,63,EE02-04,Pilot Lamp ขนาด 22 mm . LED 220 V. สีน้ำเงิน,ตู้ Control,XB7-EV0-MP,-,-,20 mA,220,น้ำเงิน,ขั้วเสียบ,22mm,หลอด,50,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,แสงงาม
+,64,EE02-05,Pilot Lamp ขนาด 22 mm . LED 220 V. สีขาว,ตู้ Control,XB7-EV0-MP,-,-,20 mA,220,ขาว,ขั้วเสียบ,22mm,หลอด,50,1,9,,,,,,,,,3,,,,,3,6,,ACTIV,แสงงาม
+,65,EE02-06,Pilot Lamp ขนาด 22 mm . LED 24 V. สีแดง,ตู้ Control,XB7-EV0-BP,-,-,27 mA,24,แดง,ขั้วเสียบ,22mm,หลอด,50,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,แสงงาม
+,66,EE02-07,Pilot Lamp ขนาด 22 mm . LED 24 V. สีเหลือง,ตู้ Control,XB7-EV0-BP,-,-,27 mA,24,เหลือง,ขั้วเสียบ,22mm,หลอด,50,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,แสงงาม
+,67,EE02-08,Pilot Lamp ขนาด 22 mm . LED 24 V. สีเขียว,ตู้ Control,XB7-EV0-BP,-,-,27 mA,24,เขียว,ขั้วเสียบ,22mm,หลอด,50,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,แสงงาม
+EE03,68,EE03-01,หลอดไฟ SPOTLIGHT / 100W / 230V / PHILIPS,-,R80,PHILPS,หลอดไส้,100w,220,-,E27,100SPOILINE,หลอด,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Mega
+,69,EE03-02,"หลอดไฟส่องโลโก้หลวงปู่ / 500W / 240V / GY9,5 / PHILIPS",-,M/40,PHILPS,หลอดไส้,500w,240,-,GY9.5,650W,หลอด,20,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,Mega
+,70,EE03-03,หลอดไฟลูกศรลิฟต์ / MSB 110V / 10W,ไฟลูดศรลิฟท์,-,-,หลอดไส้,-,110,-,เกลียว,/MS,หลอด,10,1,0,,,,,,,,,10,,,,10,20,0,กรุณาสั่งซื้อEE03-03,ACTIV,Mitshu
+,71,EE03-04,หลอดไฟ Emergencylight / 220V,โถงลิฟท์/ห้องน้ำ,CE 130-9,MAX,-,9 W,AC220,-,-,-,หลอด,50,1,16,,,,,,,,,,,,,,0,16,Dead Stock,INACTIVE,CTL
+,72,EE03-05,หลอดไฟ Downlight Emergencylight / 220V,-,CE309-9,MAX,-,-,220,-,-,-,หลอด,50,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,CTL
+EE04,73,EE04-01,ชุด Push Button 22 mm. สีแดง Schneider,ตู้ Control,ZB5 AW343,Schneider,พลาสติก,-,-,แดง,-,22 mm,Ea,50,1,33,,,,,,,,,,,,,,0,33,Dead Stock,INACTIVE,แสงงาม
+,74,EE04-02,ชุด Push Button 22 mm. สีเขียว Schneider,ตู้ Control,ZB5 AW343,Schneider,พลาสติก,-,-,เขียว,-,22 mm,Ea,50,1,26,,,,,,,,,,,,,,0,26,Dead Stock,INACTIVE,แสงงาม
+,75,EE04-03,ชุด Push Button 22 mm. สีเขียวแบบเหล็ก Schneider,ตู้ Control,ZB4 BZ101,Schneider,เหล็ก,-,-,-,-,22mm,Ea,50,1,18,,,,,,,,,,,,,,0,18,Dead Stock,INACTIVE,แสงงาม
+,76,EE04-04,หลอด Push Button 22 mm. แบบเหล็ก Schneider,ตู้ Control,ZB5 AW0M35,Schneider,เหล็ก,-,-,-,-,22 mm,Ea,50,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,แสงงาม
+EE05,77,EE05-01,หัว Sclecter Switch 2 ทาง ขนาด 22 MM NO NC #XB5-AD22 / Schneider,ตู้ Control,A600-0600,Schneider,-,10A,-,-,-,2NC,Ea,40,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,58ไร่
+,78,EE05-02,ชุด Sclecter Switch 2 ทาง ขนาด 22 MM NO NC / Schneider,ตู้ Control,ZB5 AD2,Schneider,-,-,-,-,-,2MM,ชุด,40,1,15,,,,,,,,,,,,,,0,15,Dead Stock,INACTIVE,58ไร่
+,79,EE05-03,Sclecter Switch 3 ทาง N-F-A ขนาด 22 MM #XB5-AD33,ตู้ Control,#XB5-AD33,-,-,-,-,-,-,3ขนาด,ชุด,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+EE06,80,EE06-01,ฟิวส์กระเบื้อง 500V ac GL 6A,ตู้ Control ระบบ Access,AC GL,Bogen,กระเบื้อง,6A.,500,-,-,10x38,Ea,50,1,9,,,,,,,9,,,,,,,9,0,กรุณาสั่งซื้อEE06-01,ACTIV,ออนไลน์
+,81,EE06-02,ฟิวส์หลอดแก้ว 10 AMP 30 MM,-,-,EAGEL,หลอดแก้ว,10A,250,-,-,30mm,Ea,20,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,ออนไลน์
+,82,EE06-03,ฟิวกระบอก 20 MM. ยาว 128 MM. 30 AMP ใช้กับแอร์น้ำยาแอร์ห้อง Control,แอร์น้ำยาแอร์ห้อง Control,-,BGS,-,30A,600,-,-,20MM,Ea,20,1,15,,,,,,,,,,,,,,0,15,Dead Stock,INACTIVE,ออนไลน์
+,83,EE06-04,ฟิวส์หลอดแก้ว 1A 250V 20mm.,ชุด Sensor ห้องน้ำ,-,EAGEL,หลอดแก้ว,1A.,205,-,-,20mm,Ea,50,1,2,1,10,,,2,,,,,,,,200,13,189,,ACTIV,ออนไลน์
+EE07,84,EE07-01,Circuit Breaker / ABB / SH201 / C6 (1P),Load panel,SH201,ABB,1P,6A.,230/600,-,-,-,Ea,60,1,48,,,,,,,2,,,,,,,2,46,,ACTIV,58ไร่
+,85,EE07-02,Circuit Breaker / Misubishi / BH-D6 / C10 (1P),Load panel,BH-D6,Misubishi,1P,10A,230/600,-,-,-,Ea,15,1,19,,,,,,,,,,,,,,0,19,Dead Stock,INACTIVE,58ไร่
+,86,EE07-03,Circuit Breaker / Misubishi / BH-D6 /C16 (1P),Load panel,BH-D6,Misubishi,1P,16A,230/600,-,-,-,Ea,15,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,87,EE07-04,Circuit Breaker / ABB / BH-D6 /C20 (1P),Load panel,SH201,ABB,1P,20A,230/600,-,-,-,Ea,5,1,5,,,,,,1,,,,,,,,1,4,,ACTIV,58ไร่
+,88,EE07-05,Circuit Breaker / Siemens / 5SJ6120-7SC / C20 (1P),Load panel,5SJ6120-7SC,Siemens,1P,20A,230/600,-,-,-,Ea,5,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,58ไร่
+,89,EE07-06,Circuit Breaker / ABB / S202M / C16 (2P),Load panel,S202M,ABB,2P,16A,230/600,-,-,-,Ea,15,1,20,,,,,,,,,,,,,,0,20,Dead Stock,INACTIVE,58ไร่
+,90,EE07-07,Circuit Breaker / ABB / S202M / C32 (2P),Load panel,S202M,ABB,2P,32A,230/600,-,-,-,Ea,15,1,23,,,,,,,,,,,,,,0,23,Dead Stock,INACTIVE,58ไร่
+,91,EE07-08,Circuit Breaker / Schneider / C20 (3P),Load panel,-,Schneider,3P,6kva,240/415,-,-,-,Ea,30,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,58ไร่
+,92,EE07-09,Circuit Breaker / Schneider / C25 (3P),Load panel,-,Schneider,3P,25A,240/415,-,-,-,Ea,30,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,93,EE07-10,Circuit Breaker / Schneider / C32 (3P),Load panel,-,Schneider,3P,32A,240/415,-,-,-,Ea,30,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,58ไร่
+,94,EE07-11,Circuit Breaker / Schneider / C40 (3P),Load panel,-,Schneider,3P,40A,240/415,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,95,EE07-12,Circuit Breaker / Misubishi / BH-D6 / C16 (3P),Load panel,BH-D6,Misubishi,3P,16A,400,-,-,-,Ea,30,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,96,EE07-13,Circuit Breaker / Misubishi / BH-D6 / C20 (3P),Load panel,BH-D6,Misubishi,3P,20A,400,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,97,EE07-14,Circuit Breaker / Misubishi / BH-D6 / C32 (3P),Load panel,BH-D6,Misubishi,3P,32A,400,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,98,EE07-15,Circuit Breaker / Misubishi / BH-D6 / C40 (3P),Load panel,BH-D6,Misubishi,3P,40A,400,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+EE08,99,EE08-01,เซฟตี้ Breaker / Panasonic / 20A (2P),-,BS1112YT,Panasonic,2P,20 A.,240,-,-,-,Ea,10,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,100,EE08-02,Main Breaker / Misubishi / 10A (2P) / NF30-CS,-,NF30-CS,Misubishi,2P,10 A.,220 V.,-,-,-,Ea,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,101,EE08-03,Main Breaker Misubishi / 10A (3P) / NF30-CS,-,NF30-CS,Misubishi,3P,10 A.,220 V.,-,-,-,Ea,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,102,EE08-04,Main Breaker / Misubishi / 15A (3P) / NF30-CS,-,NF30-CS,Misubishi,3P,15 A.,220 V.,-,-,-,Ea,10,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,58ไร่
+,103,EE08-05,Main Breaker / Misubishi / 20A (3P) / NF63-HV,-,NF63-HV,Misubishi,3P,20 A.,220 V.,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,104,EE08-06,Main Breaker / Misubishi / 30A (3P) / NF30-CS,-,NF30-CS,Misubishi,3P,30 A.,220 V.,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+,105,EE08-07,Main Breaker / Misubishi / 25A (3P) / NF125-HGV,-,NF125-HGV,Misubishi,3P,25 A.,220 V.,-,-,-,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,106,EE08-08,Main Breaker / Misubishi / 32A (3P) / NF32-SV,-,NF32-SV,Misubishi,3P,32 A.,220 V.,-,-,-,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,58ไร่
+,107,EE08-09,Main Breaker / Misubishi / 40A (3P) / NF125-HGV,-,NF125-HGV,Misubishi,3P,40 A.,600 V.,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,108,EE08-10,Main Breaker / Misubishi / 50A (3P) / 600V / NF63-CV,-,NF63-CV,Misubishi,3P,50 A.,690 V.,-,-,-,Ea,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,109,EE08-11,Main Breaker / Misubishi / 50A (3P) / 690V / NF125-SGV,-,NF125-SGV,Misubishi,3P,50 A.,690 V.,-,-,-,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,110,EE08-12,Main Breaker / Misubishi / 63A (3P) / 690V / NF125-SGV,-,NF125-SGV,Misubishi,3P,63 A.,690 V.,-,-,-,Ea,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,111,EE08-13,Main Breaker / Misubishi / 100A (3P) / 690V / NF125-SGV,-,NF125-SGV,Misubishi,3P,100 A.,690 V.,-,-,-,Ea,10,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,112,EE08-14,Main Breaker / Misubishi / 250A (3P) / 690V / NF250-SGV,-,NF250-SGV,Misubishi,3P,250 A.,690 V.,-,-,-,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,113,EE08-15,Main Breaker / ABB / 16A (3P),-,XT1C160,ABB,3P,16 A.,690 V.,-,-,-,Ea,10,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,58ไร่
+,114,EE08-16,Main Breaker / ABB / 32A (3P),-,XT1C160,ABB,3P,32 A.,690 V.,-,-,-,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,115,EE08-17,Main Breaker / ABB / 40A (3P),-,XT1C160,ABB,3P,40 A.,690 V.,-,-,-,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+EE09,116,EE09-01,Magnetic 3P400 / AF80-30-11-13 / ABB,-,AF80-30-11-13,ABB,3P,3kw,230-690,-,-,3Magnetic,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,117,EE09-02,Cap Switching,-,-,EPCOS,-,-,220-240,-,-,-,Ea,5,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,118,EE09-03,Magnetic / A110-30-11 / ABB,-,A110-30-11,ABB,-,110agnetic A.,-,-,-,110agnetic,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,58ไร่
+,119,EE09-04,Magnetic / A95-30-11 / ABB,-,A95-30-11,ABB,-,95agnetic A.,,-,-,95agnetic,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,58ไร่
+,120,EE09-05,Magnetic Contactar S-T10 / 240V / Misubishi,-,S-T10,Misubishi,-,20 A.,240,-,-,10S,Ea,5,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,58ไร่
+,121,EE09-06,Magnetic Contactar S-T20 / 240V / Misubishi,-,S-T20,Misubishi,-,20 A.,240,-,-,20S,Ea,5,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,58ไร่
+,122,EE09-07,Magnetic Contactar S-T12 / 240V / Misubishi,-,S-T12,Misubishi,-,20 A.,240,-,-,12S,Ea,5,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,58ไร่
+,123,EE09-08,Magnetic A12-30-10 / 27A / 400V / 5.5kw / ABB,-,A12-30-10,ABB,-,27 A.,400,-,-,-,Ea,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,124,EE09-09,Magnetic A26-30-01 / 45A / 400V / 11kw / ABB,-,A26-30-01,ABB,-,11kw/45a.,400,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+,125,EE09-10,Magnetic AF30-30-00-13 / 50A / 15kW / 400V / ABB,-,AF30-30-00-13,ABB,-,15kw/50a.,400,-,-,-,Ea,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,126,EE09-11,Magnetic AF12-30-10-13 / 28A / 5kW / 400V / ABB,-,AF12-30-10-13,ABB,-,15kw/28a.,400,-,-,-,Ea,5,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,58ไร่
+,127,EE09-12,Magnetic AF09-30-10-13 / 25A / 4kW / 400V / ABB,-,AF09-30-10-13,ABB,-,4kw/25a,400,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,128,EE09-13,Magnetic AF16-30-10-13 / 30A / 7.5kW / 400V / ABB,-,AF16-30-10-13,ABB,-,7.5kw/30a.,400,-,-,-,Ea,15,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,129,EE09-14,Magnetic AF26-30-00-13 / 40A / 11kW / 400V / ABB,-,AF26-30-00-13,ABB,-,11kw/40a.,400,-,-,-,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,130,EE09-15,Magnetic A30-30-10 / 55A / 15kW / 400V / ABB,-,A30-30-10,ABB,-,15kw/55a.,400,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,131,EE09-16,Magnetic AF96-30-11-13 / 130A / 45kW / 400V / ABB,-,AF96-30-11-13,ABB,-,45kw/130a.,400,-,-,-,Ea,20,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,132,EE09-17,Magnetic 3P400 / AF116-30-11 / ABB,-,AF116-30-11,ABB,-,3Magnetic A.,400,-,-,3Magnetic,Ea,20,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,133,EE09-18,Magnetic 3P400 / AF140-30 / ABB,-,AF140-30,ABB,-,3Magnetic A.,400,-,-,3Magnetic,Ea,20,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,134,EE09-19,Magnetic Contact 3P400 / A145-30-11 / ABB,-,A145-30-11,ABB,-,3Contact A.,400,-,-,3Contact,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,135,EE09-20,Magnetic contact / CA4-01 / 3A / 400V / ABB,-,CA4-01,ABB,-,3 C.,400,-,-,3,Ea,5,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,58ไร่
+EE10,135,EE10-01,Overload Relay TF65-53 / 44-53A / Trip Class 10 / ABB,-,TF65-53,ABB,-,44-53 A.,690,-,-,-,Ea,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,136,EE10-02,Overload Relay TA75DU-42 / 29-42A / Trip Class 10 / ABB,-,TA75DU,ABB,-,29-42 A,600,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,137,EE10-03,Overload TH-T18 / 1-1.6A / Misubishi,-,TH-T18,Misubishi,-,1-1.6 A.,550,-,-,-,Ea,5,1,15,,,,,,,,,,,,,,0,15,Dead Stock,INACTIVE,58ไร่
+,138,EE10-04,Overload TH-T18 / 2-3A / Misubishi,-,TH-T18,Misubishi,-,2-3 A,550,-,-,-,Ea,5,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,58ไร่
+,139,EE10-05,Overload TH-T18 / 4-6A / Misubishi,-,TH-T18,Misubishi,-,4-6 A.,550,-,-,-,EA,5,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,58ไร่
+,140,EE10-06,Overload TH-T18 / 7-11A / Misubishi,-,TH-T18,Misubishi,-,7-11 A.,550,-,-,-,Ea,5,1,18,,,,,,,,,,,,,,0,18,Dead Stock,INACTIVE,58ไร่
+,141,EE10-07,Overload TH-T18 / 12-18A / Misubishi,-,TH-T18,Misubishi,-,12-18 A.,550,-,-,-,EA,5,1,17,,,,,,,,,,,,,,0,17,Dead Stock,INACTIVE,58ไร่
+,142,EE10-08,Overload Relay TF42-13 / 10-13A / Trip Class 10 / ABB,-,TF42-13,ABB,-,10-13 A.,690,-,-,-,EA,5,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,58ไร่
+,143,EE10-09,Overload Relay TF42-20 / 16-20A / Trip Class 10 / ABB,-,TF42-13,ABB,-,16-20 A.,690,-,-,-,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,144,EE10-10,Overload Relay TA25DU-14M / 10-14A / Trip Class 10 / ABB,-,TA25DU-14M,ABB,-,10-14 A.,690,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+,145,EE10-11,Overload Relay TA25DU-8.5 / 6-8.5A / Trip Class 10 / ABB,-,TA25DU-8.5,ABB,-,6-8.5 A.,690,-,-,-,Ea,30,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,146,EE10-12,Overload Relay TA75DU-63 / 45-63A / Trip Class 10 / ABB,-,TA75DU-63,ABB,-,45-63 A.,690,-,-,-,Ea,30,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,147,EE10-13,Overload Relay TF65-47 / 36-47A / Trip Class 10 / ABB,-,TF65-47,ABB,-,36-47 A.,690,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,148,EE10-14,Overload Relay TA25DU / 10-14A / Trip Class 10 / ABB,-,TA25DU,ABB,-,10-14 A.,690,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,149,EE10-15,Overload Relay TF140DU-110 / 80-110A / Trip Class 10 / ABB,-,TF140DU-110,ABB,-,80-110 A.,690,-,-,-,Ea,30,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,58ไร่
+,150,EE10-16,Overload Relay TF110DU-110 / 80-110A / Trip Class 10 / ABB,-,TF110DU-110,ABB,-,80-110 A.,690,-,-,-,Ea,30,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,,EE10-17,Overload Relay TF96-78 / 65-78A / Trip Class 10 / ABB,-,TF96-78,ABB,-,65-78 A.,690,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+,,EE10-18,Overload Relay  ตู้เย็น,-,TF96-78,ABB,-,65-78 A.,690,-,-,-,Ea,0,0,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,58ไร่
+EE11,152,EE11-01,Under Voltage Trip Coil AE-SW / Mitsubishi,-,SHA 09-444,Mitsubishi,-,3 A.,220 V.,-,-,-,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,153,EE11-02,Under Voltage Releases 220-240 AC-DC / ABB / ใช้กับตู้ MDB Pump Chiller,-,A073700,ABB,-,3.5 A.,220 V.,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,ออนไลน์
+,154,EE11-03,Under Voltage Relay 3P / 4W / 220V /253Pvewai / Crompton,-,253-PVEW,Crompton,-,5 A.,220 V.,-,-,-,Ea,10,1,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,ออนไลน์
+EE12,155,EE12-01,Phaseloss Underlover & Upr 3P/3W 380V 252PSGWAP Crompton,ตู้ MDB,252-PSGW,Crompton,-,3 W.,380 V.,-,-,-,Ea,10,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,ออนไลน์
+,156,EE12-02,Digital Phase Protector W-OP2 / 220-240Vac,-,W-OP2,WIP,-,-,240 V.,-,-,-,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,157,EE12-03,Digital Phase Protector W-OP4 380-415 V 3P4W,-,W-OP4,WIP,-,4OP W.,380 V.,-,-,-,Ea,15,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,ออนไลน์
+,158,EE12-04,multifunction / 3P / PMS / monitoring CM-MPS.41S / 4A / 250Vac / ABB,"ห้องไฟฟ้า Ch,CT",CM-MPS.41S,ABB,-,1ka,300-500,-,-,3S,Ea,15,1,5,,,,,,,,1,,,,,,1,4,,ACTIV,ออนไลน์
+EE13,159,EE13-01,"Timer ""ABB"" TE 5S-240 (220 - 240V )",-,TE5S-240,ABB,-,5 A.,220,-,-,-,Box,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,160,EE13-02,Electronic Timer Delay 220/250V DC/AC,-,A038320,ABB,-,-,220,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,ออนไลน์
+,161,EE13-03,"Timer Switch "" Grasslin"" Mil 72A / Tactic 211.0 (250V)",พัดลม Jet,Tactic 211.0,Grasslin,-,72 A,250,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,162,EE13-04,Timer H3CR-F8/220VAC OMRON,-,H3CR-F8,OMRON,-,-,220,-,-,-,Ea,5,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,ออนไลน์
+,163,EE13-05,Timer reiey omron รุ่น H3JA-8C 0-10 SEC FIOATIESS LEIEY WIP,-,H3JA-8C,OMRON,-,1.5-3 A.,240,-,-,-,Ea,5,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,164,EE13-06,"Timer ""OMRON"" H3CR-A8 (100 - 240V )",-,H3CR-A8,OMRON,-,0.5 -3 A.,2240,-,-,-,Ea,5,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,ออนไลน์
+,165,EE13-07,Timer Electron / kg 316-II Ac 220V/ 15-20A,-,kg 316-II,Electron,-,15-20 A,220,-,-,-,Ea,5,1,7,,,,,,,1,,,,,,,1,6,,ACTIV,ออนไลน์
+,166,EE13-08,Timer Switch Digital AHC15B / 220-240V / 16A / Alion,-,AHC15B,Alion,-,16 A.,220,-,-,-,Ea,15,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,167,EE13-09,Timer Analog TM-B20 / Haco,-,TM-B20,Haco,-,20Analog H.,-,-,-,-,Ea,5,1,4,,,,,,,1,,,,,,,1,3,,ACTIV,ออนไลน์
+,168,EE13-10,Timer Block For A9 ..75 /B/C9..75 TP40DA 0.1 - 40 S / ABB,-,TP40DA,ABB,-,9TP A.,-,-,-,-,Ea,15,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,169,EE13-11,Timer reiey รุ่น H3CR-A8 220V OMRON,-,H3CR-A8,OMRON,-,5 A.,220,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,170,EE13-12,Timer TOSHINO TS-MT3 / 220-240V / 15A,-,TS-MT3,TOSHINO,-,15 A.,220,-,-,-,Ea,5,1,5,,,,,,,,2,,1,,,,3,2,,ACTIV,ออนไลน์
+,171,EE13-13,Timer Switeh Digital THC 15A,-,-,THC,-,15Switeh T.,-,-,-,-,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,172,EE13-14,Timer analog time switch,,,,,,,,,,,5,1,5,,,,,,,,,2,1,,,,3,2,,ACTIV,ออนไลน์
+EE14,172,EE14-01,Socket Relay 0367CX2 / 7A / 250Vac / PYFD8A-E / Omron,-,PYFD8A-E,OMRON,-,7:00 AM,250,-,-,-,Ea,100,1,66,,,,,,,2,,,6,,,,8,58,,ACTIV,ออนไลน์
+,173,EE14-02,Socket Relay 21YSCX1 / 5A / 250Vac / PYFD14A-E / Omron,-,PYFD14A-E,OMRON,-,5 A.,250,-,-,-,Ea,100,1,88,,,,,,,,,,,,,,0,88,Dead Stock,INACTIVE,ออนไลน์
+,174,EE14-03,SCREW TEPMINAL Socket 4CO-4PDT / 10A / 250V / 94.74 SMA / finder,-,4CO-4PDT,-,-,10 A.,250,-,-,-,Ea,30,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,ออนไลน์
+,175,EE14-04,CLAMP TERMINAL Soket 4CO-4PDT / 12A / 250V / 96.04 SMA / finder,-,4CO-4PDT,-,-,12:00 AM,250,-,-,-,Ea,30,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,ออนไลน์
+,176,EE14-05,Soket Timer Ompon H3CR-A8 / 100-240V / CIKACHI / PE083A,-,H3CR-A8,CIKACHI,-,-,100-240,-,-,-,Ea,5,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,177,EE14-06,Limit Swicht - Interrupteur ZCKM1 / Sehsors,-,-,-,-,1Swicht S.,-,-,-,1Swicht,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,ออนไลน์
+,178,EE14-07,Terminal Units 600V / TR30,-,TR30,-,-,600Terminal T.,-,-,-,600Terminal,Ea,200,1,107,,,,,,,,,,,,,,0,107,Dead Stock,INACTIVE,58ไร่
+,179,EE14-08,Terminal Units 600V / TR10,-,TR10,-,-,600Terminal T.,-,-,-,600Terminal,Ea,250,1,216,,,,,,,,,,,,,,0,216,Dead Stock,INACTIVE,58ไร่
+,180,EE14-09,Terminal Units 600V / TR20,-,TR20,-,-,600Terminal T.,-,-,-,600Terminal,Ea,250,1,124,,,,,,,,,,,,,,0,124,Dead Stock,INACTIVE,58ไร่
+EE15,181,EE15-01,Relay MY2N-GS / 220/240Vac / OmRon / 5A,-,MY2N-GS,Omron,-,5 2.,220/240,-,-,5,Ea,60,1,53,,,,,,,,,,,,,,0,53,Dead Stock,INACTIVE,ออนไลน์
+,182,EE15-02,Relay 85.02.8.240.000 / 10A / 250V / Finder,-,85.02.8.240.000,Finder,-,10 1.,250,-,-,10,Ea,5,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,ออนไลน์
+,183,EE15-03,Relay MY2N-GS / 24Vdc / 5A / Omron,-,MY2N-GS,Omron,-,5 2.,24 dc,-,-,5,Ea,30,1,40,,,,,,,,,,,,,,0,40,Dead Stock,INACTIVE,ออนไลน์
+,184,EE15-04,Relay MY2N-GS / 24Vac / 5A / Omron,-,MY2N-GS,Omron,-,5 2.,24 ac,-,-,5,Ea,5,1,34,,,,,,,,,,2,,,,2,32,,ACTIV,ออนไลน์
+,185,EE15-05,Relay MY4N-GS / 24Vac / Omron,-,MY4N-GS,Omron,-,5 2.,24 ac,-,-,5,Ea,40,1,49,,,,,,,,,,,,,,0,49,Dead Stock,INACTIVE,ออนไลน์
+,186,EE15-06,Relay MY4N-GS / 220/240Vac / Omron,-,MY4N-GS,Omron,-,4N 2.,220/240,-,-,4N,Ea,30,1,39,,,,,,,,,,,,,,0,39,Dead Stock,INACTIVE,ออนไลน์
+,187,EE15-07,Voltage Control Relay / 3P / Rm22TR33 / Schneider,-,Rm22TR33,Schneider,3P,3P 3.,,-,-,3P,Ea,50,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,188,EE15-08,Relay 24Vdc / 7A / 250Vac / Finder,-,-,Finder,-,7 7.,250,-,-,7,Ea,50,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,189,EE15-09,Latching Relay W-LT2 DPDT / 5A / 250Vac / WIP,-,W-LT2 DPDT,-,-,5 5.,250,-,-,5,Ea,50,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,190,EE15-10,Relay TYPE G4Q-212S VOLTS AC 220V / Omron,-,G4Q-212S,Omron,-,4VOLTS O.,220,-,-,4VOLTS,Ea,50,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,191,EE15-11,Relay 56.34.8.230.0040 / 12A / 250V / Finder,-,56.34.8.230.0040,Finder,-,12 1.,250,-,-,12,Ea,10,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,ออนไลน์
+,192,EE15-12,Relay STARTER SS-40 / 24V / EPINA,-,SS-40,EPINA,-,40STARTER 2.,24 dc,-,-,40STARTER,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,193,EE15-13,Relay 55.34.9.024.0094 / 7A-250V / 24Vdc / Finder,-,55.34.9.024.0094,Finder,-,7 7.,24 dc,-,-,7,Ea,5,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,ออนไลน์
+EE16,194,EE16-01,Float Less Ralay MFR3 Output / 5A / 250Vac SPDT / WIP,-,MFR3,,-,2 5.,250,-,-,2,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,195,EE16-02,Float Less Ralay 61F-G3 / 110-220Vac / omron,-,61F-G3,omron,-,-,110-220,-,-,-,Ea,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,196,EE16-03,Float Less Ralay Unit รุ่น 61F-11 / 100-220Vac / omron,-,61F-11,omron,-,-,110-220,-,-,-,Ea,10,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,197,EE16-04,Float Less Level SW / 110-220Vac / รุ่น 61F-G-2 / Omron,-,61F-G-2,omron,-,-,110-220,-,-,-,Ea,10,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,198,EE16-05,Float Less Level SW / 110-220Vac / รุ่น 61F-G-AP / Omron,-,61F-G-AP,omron,-,-,110-220,-,-,-,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+EE17,199,EE17-01,Switch Lighting Control / 5054NL-GB4 Key / CLIPSAL,-,5054NL-GB4 Key,CLIPSAL,-,-,-,-,-,-,Ea,10,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,Enginar
+,200,EE17-02,Lighting Control L5504RVFP 4 Chanel / CLIPSAL,-,L5504RVFP 4 Chanel,CLIPSAL,-,10 A.,220 V.,-,-,-,Ea,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Enginar
+,201,EE17-03,"Lighting Control 5052NL,GB Two Button Key Input",-,"5052NL,GB 2KEY",CLIPSAL,-,5052Two T.,220 V.,-,-,-,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,Enginar
+,202,EE17-04,Power Supply Unit 5500PS / CLIPSAL,-,5500PS,CLIPSAL,-,5500Supply C.,220 V.,-,-,-,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,Enginar
+,203,EE17-05,Lighting Control L5512RVFP 12 Chanel Relay 220-240V / CLIPSAL,-,L5512RVFP 12 Chanel,CLIPSAL,-,5512Chanel C.,220 V.,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,Enginar
+,204,EE17-06,Lighting Control L5508RVFP 8 Chanel Relay / CLIPSAL,-,L5508RVFP 8 Chanel,CLIPSAL,-,5508RVFP C.,220 V.,-,-,-,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,Enginar
+,205,EE17-07,Lighting Control 5500CN2 C-BUS Ethernet Network Interting / CLIPSAL,-,5500CN2 C-BUS,CLIPSAL,-,5500Ethernet C.,220 V.,-,-,-,Ea,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,Enginar
+,206,EE17-08,"Lighting Control 5058NL,GB8 Key / CLIPSAL",-,"5058NL,GB8 Key",CLIPSAL,-,5058NL C.,-,-,-,-,Ea,10,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,Enginar
+EE18,207,EE18-01,Cap / 450V / 8 µF / (แบบทรงกระบอก) / COMAR,-,-,COMAR,ทรงกระบอก,8 4.,450,-,-,8,Ea,30,1,24,,,,,,,,,,,,,,0,24,Dead Stock,INACTIVE,ออนไลน์
+,208,EE18-02,FUTURE Cap WME-RS / 450Vac / 35 µF / (แบบทรงกระบอก),-,WME-RS,FUTURE CAP,ทรงกระบอก,35 4.,450,-,-,35,Ea,50,1,33,,,,,,,,,,,,,,0,33,Dead Stock,INACTIVE,ออนไลน์
+,209,EE18-03,Cap / 450V / 15 µF / (แบบทรงกระบอก) / COMAR,-,-,COMAR,ทรงกระบอก,15 4.,450,-,-,15,Ea,100,1,16,,,,,,,,,,,,,,0,16,Dead Stock,INACTIVE,ออนไลน์
+,210,EE18-04,Cap / 450V / 25 µF / (แบบทรงกระบอก) / COMAR,-,-,COMAR,ทรงกระบอก,25 4.,450,-,-,25,Ea,5,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,ออนไลน์
+,211,EE18-05,Cap / 450V / 8 µF / (ทรงกระบอก แบบ 4 ขา) / COMAR,-,-,COMAR,ทรงกระบอก,8 4.,450,-,-,8,Ea,5,1,50,,,,,,,,,,,,,,0,50,Dead Stock,INACTIVE,ออนไลน์
+,212,EE18-06,Cap CBB61 / 450V / 6 µF / (แบบกล่อง) / TW,-,CBB61,TW,ทรงกล่อง,6 4.,450,-,-,6,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,213,EE18-07,Cap CBB61 / 450V / 8 µF / (แบบกล่อง),-,CBB61,TW,ทรงกล่อง,8 4.,450,-,-,8,Ea,5,1,98,,,,,,,,,,,,,,0,98,Dead Stock,INACTIVE,ออนไลน์
+,214,EE18-08,Cap MKP 7.5URL / 400V / 7.5 µF / (แบบทรงกระบอก),-,-,-,ทรงกระบอก,7.5 4.,400,-,-,7.5,Ea,5,1,24,,,,,,,,,,,,,,0,24,Dead Stock,INACTIVE,ออนไลน์
+,215,EE18-09,Cap SH-Cap / 400V / 4 µF / (แบบทรงกระบอก),-,-,-,ทรงกระบอก,4 4.,400,-,-,4,Ea,5,1,18,,,,,,,,,,,,,,0,18,Dead Stock,INACTIVE,ออนไลน์
+,216,EE18-10,Cap CBB61 / 450V / 2 µF / (แบบกล่อง),-,CBB61,,ทรงกล่อง,2 4.,450,-,-,2,Ea,5,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,ออนไลน์
+,217,EE18-11,Cap / 350V / 1 µF / (แบบกล่อง 2 ขา),-,-,-,ทรงกล่อง,1 3.,350,-,-,1,Ea,50,1,88,,,,,,,1,,,,,,,1,87,,ACTIV,ออนไลน์
+,218,EE18-12,Cap / 450V / 5 µF,-,-,-,ทรงกล่อง,5 4.,450,-,-,5,Ea,50,1,5,,,,,,,,,,,,,10,10,15,,ACTIV,ออนไลน์
+,219,EE18-13,Cap / 440/VAC / 3.5 µF,-,-,-,ทรงกล่อง,3.5 4.,440,-,-,3.5,Ea,50,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,ออนไลน์
+,219,EE18-14,,-,-,-,ทรงกล่อง,3.5 4.,440,-,-,3.5,Ea,,,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,220,EE18-15,Cap / 450/VAC / 10 µF (แบบทรงกระบอก),-,-,-,ทรงกระบอก,10 4.,450,-,-,10,Ea,50,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,221,EE18-16,Cap / 450/VAC / 6 µF (แบบทรงกระบอก),-,-,-,ทรงกระบอก,6 4.,450,-,-,6,Ea,5,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,ออนไลน์
+,222,EE18-17,Cap / 450/VAC / 5 µF (แบบทรงกระบอก),-,-,-,ทรงกระบอก,5 4.,450,-,-,5,Ea,100,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,223,EE18-18,Cap / 450 / VAC / 3 µF / (แบบกล่อง),-,-,-,ทรงกล่อง,3 4.,450,-,-,3,Ea,30,1,5,,,,,,,,,1,,,,,1,4,,ACTIV,ออนไลน์
+,224,EE18-19,Cap / 250 / VAC / 3.3 µF ( สำหรับปั้มเดรนแอร์),-,-,-,ทรงกระบอกวงรี,3.3 2.,250,-,-,3.3,Ea,30,1,13,,,,,,,,,,1,,,,1,12,,ACTIV,ออนไลน์
+,224,EE18-20,Cap / 450 / VAC / 10 µF (แบบทรงกระบอก),-,-,-,ทรงกระบอกวงรี,3.3 2.,250,-,-,3.3,Ea,30,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,224,EE18-21,Cap / 450 / VAC / 10 µF (แบบทรงกระบอก),-,-,-,ทรงกระบอกวงรี,3.3 2.,250,-,-,3.3,Ea,30,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,ออนไลน์
+EE19,225,EE19-01,หม้อแปลง TR-0107 / 1P / In 220V / Out 24V / 50W,,,,,50,220,,,0107V,Ea,50,1,16,,,,,,,,,,,,,,0,16,Dead Stock,INACTIVE,ออนไลน์
+,226,EE19-02,Electronic Transformer / ET-60 / 220-240V / PHILIPS,,,,,60Transformer E.,240,,,60Transformer,EA,5,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,227,EE19-03,DRIVER LED / DCC 15W / 350mA / US 100-240V / TCI,หลอดไฟกระถางต้นไม้,,,,15mA D.,240,,,15mA,EA,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,228,EE19-04,บัลลาสต์ 36(40W) 220V / Panasonic,,,,,36บัลลาสต์ P.,220,,,36บัลลาสต์,EA,5,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,58ไร่
+,229,EE19-05,DRIVER LED Strato RSLD070-25 / 700mA / 63-88V / 61W / ROAL,,,,,070mA 7.,63-88,,,070mA,EA,50,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ออนไลน์
+,230,EE19-06,DRIVER LED / 55-65W / Out 90-150Vdc / 400mA (T-Bar),,,,,55Vdc 5.,220,,,55Vdc,EA,50,1,5,,,,,,,,,1,,,,,1,4,,ACTIV,ออนไลน์
+,231,EE19-07,DRIVER LED / KR-48-54W / Out 60-90Vdc / 600mA (T-Bar),,,,,48Vdc K.,220,,,48Vdc,EA,50,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,ออนไลน์
+,232,EE19-08,DRIVER ELG-240-36A / MEAN WELL,,,,,240ELG M.,220,,,240ELG,EA,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,ออนไลน์
+,233,EE19-09,DRIVER ELG-75-36A / MEAN WELL (ลานจอดรถ),ลานจอดรถ,,,,75A M.,220,,,75A,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,ออนไลน์
+,234,EE19-10,Adaptor AC/DC 5V / 2A.,,,,,2 2.,220,,,2,EA,5,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,ออนไลน์
+,235,EE19-11,Adaptor AC/DC 12V / 2 A,,,,,2 2.,220,,,2,EA,5,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,ออนไลน์
+,236,EE19-12,Driver ELG-150-36A-3Y ( ลานสาธุชน ),ลานสาธุชน,,,,150ELG ล.,220,,,150ELG,EA,5,1,5,,,,,,,3,,,,,,,3,2,,ACTIV,แสงงาม
+EE20,237,EE20-01,Power Supply RS-50-24 /24 v. / 2.2A. MEAN WELL (ไฟโหนด),,,,,50RS M.,,,,50RS,Ea,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,แสงงาม
+,238,EE20-02,Power Supply 12-14Vdc ADJ / ใช้กับประตู Access,,,,,12Vdc ใ.,,,,12Vdc,Ea,30,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,แสงงาม
+,239,EE20-03,Power Supply AD-55B / Out 100-240Vac / MEAN WELL (ตู้ดับเพลิงพิเศษห้อง MDB ),,,,,55MEAN O.,,,,55MEAN,Ea,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,แสงงาม
+,240,EE20-04,Power Supply LRS-50-12 / MEAN WELL/12V/4.2A,ประตู Acc,LRS-50-12,MEAN-WELL,,4.2 Amp,Ac 100-240 v,Out 12 v.,,50MEAN,Ea,10,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,แสงงาม
+,241,EE20-05,Power Supply LRS-100-24 / Out 24 / 4.5 A / MEAN WELL,,,,,100Out O.,,,,100Out,Ea,5,1,16,,,,,,,,,,,,,,0,16,Dead Stock,INACTIVE,แสงงาม
+,242,EE20-06,Power Supply LRS-35-24 / Out 24 / MEAN WELL,,,,,35LRS O.,,,,35LRS,Ea,30,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,แสงงาม
+,243,EE20-07,Power Supply LRS-50-24 / Out 24 / MEAN WELL / 2.2 A.,,,,,50Out O.,,,,50Out,Ea,30,1,51,,,,,,,,,,,,,,0,51,Dead Stock,INACTIVE,แสงงาม
+,244,EE20-08,Power Supply LRS-150-24 / Out 24 / 6.5 A / MEAN WELL,,,,,150Out O.,,,,150Out,Ea,30,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,แสงงาม
+,245,EE20-09,Power Supply LRS-200-24 / Out 24 / MEAN WELL,,,,,200LRS O.,,,,200LRS,Ea,50,1,6,,,,,,,,,,1,,,,1,5,,ACTIV,แสงงาม
+,246,EE20-10,Power Supply LRS-350-12 / Out 12 / MEAN WELL,,,,,350LRS O.,,,,350LRS,Ea,10,1,12,,,,,,,,,,,,,,0,12,Dead Stock,INACTIVE,แสงงาม
+,247,EE20-11,Power Supply LRS-350-24 / Out 24 / MEAN WELL,,,,,350LRS O.,,,,350LRS,Ea,10,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,แสงงาม
+EE21,248,EE21-01,ปลั๊กเสียบตัวผู้ ขาแบน / 6A / 220V / MATSUKAMI,,,,,6ขาแบน 6.,,,,6ขาแบน,Ea,50,1,30,,,,,,,,,,,,,,0,30,Dead Stock,INACTIVE,ออนไลน์
+,249,EE21-02,ปลั๊กยาง 2 ขาตัวผู้ / 15A / 250V / Neutron,,,,,2ขาตัวผู้ 1.,,,,2ขาตัวผู้,Ea,30,1,32,,,,,,,,,,1,,,,1,31,,ACTIV,58ไร่
+,250,EE21-03,ปลั๊กยาง 3 ขาตัวผู้ / 16A / 250V / IP20 / KR01,-,KR01,ELECKTA,IP20,-,250,-,-,-,Ea,30,1,27,,,,,,,,,,,,,,0,27,Dead Stock,INACTIVE,58ไร่
+,251,EE21-04,ปลั๊กเสียบตัวเมีย ขาแบน / 6A / 220V / MATSUKAMI,,,,,6ขาแบน 6.,,,,6ขาแบน,Ea,5,1,79,,,,,,,,,,,,,,0,79,Dead Stock,INACTIVE,58ไร่
+,252,EE21-05,Soft Mulit-mop Socket XG-2014 / 10-16A / 250V /2500W (ปลั๊กรางไฟ) / PCL,,,,,2014V 1.,,,,2014V,Ea,0,1,15,,,,,,,,,,,,,,0,15,Dead Stock,INACTIVE,58ไร่
+,253,EE21-06,เต้ารับปลั๊กไฟ 3 ขา 2 ช่อง / 16A / 250V / Panasonic,,,,,3ช่อง 1.,,,,3ช่อง,Ea,0,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,254,EE21-07,เต้ารับปลั๊กไฟ 2 ขา 1 ช่อง / 16A / 250V / Panasonic,,,,,2ช่อง 1.,,,,2ช่อง,Pcs,40,1,20,,,,,,,,,,,,,,0,20,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,255,EE21-08,ปลั๊ก 3 ตาขาแบน / 15A / 250V / Sokawa,,,,,3ตาขาแบน 1.,,,,3ตาขาแบน,Pcs,30,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,58ไร่
+,256,EE21-09,เต้ารับปลั๊กไฟ 3 ขา 2 ช่อง / 16A / 250V / สีแดง WEG15929R / Panasonic,WEG15929R,,Panasonic,,3สีแดง 1.,250 V/16a,ขาว,,3สีแดง,Ea,100,1,21,,,,,,,,,,,,,,0,21,Dead Stock,INACTIVE,"แสงงาม,ออนไลน์"
+,257,EE21-10,Adapter / 5V / 1A / Charoer,,,,,5Adapter 5.,,,,5Adapter,Ea,30,1,16,,,,,,,,,,,,,,0,16,Dead Stock,INACTIVE,ออนไลน์
+,258,EE21-11,เต้ารับปลั๊กไฟ 3 ขา 2 ช่อง / 16A / 250V / WNG15929 / Panasonic,-,WNG15923-7,Panasonic,-,3A 1.,250 V/16a,ขาว,-,3A,Ea,5,1,15,,,,,1,1,,3,1,1,,,,7,8,,ACTIV,"Mega,แสงงาม"
+,259,EE21-12,เต้ารับปลั๊กไฟ 3 ขา 2 ช่อง / 16A / 250V / HACO (130x90x30 มม.),,,,,3HACO 1.,,,,3HACO,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Mega
+,260,EE21-13,เต้ารับ HACO 3ขา/2ช่อง+สวิทช์ทางเดียว 1 ช่อง 16 แอมป์ (130x90x30 มม.),,,,,3แอมป์ 1.,,,,3แอมป์,Ea,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Mega
+,261,EE21-14,เต้ารับ HACO 3ขา/3ช่อง/ 16 แอมป์ (130x90x30 มม.),,,,,3แอมป์ 1.,,,,3แอมป์,Ea,30,1,6,,,,,,,,2,,,,,,2,4,,ACTIV,Mega
+EE22,262,EE22-01,สวิตซ์ทางเดียว / 16A / 250V / WEG5001-701 / Panasonic,-,WEG5001-701,Panasonic,-,16A 1.,250,-,-,16A,Ea,30,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,263,EE22-02,สวิตซ์ทางเดียว / 16A / 250V / WEG5001K / Panasonic,-,WEG5001K,Panasonic,-,16V 1.,250,-,-,16V,EA,10,1,16,,,,,,,6,,,,,,,6,10,,ACTIV,"Mega,แสงงาม"
+,264,EE22-03,สวิตซ์ทางเดียวแบบมีไฟแดง / 6A / 250V / WEG5141 / Panasonic,-,WEG5141,Panasonic,-,6A 6.,250,-,-,6A,EA,30,1,2,,,,,,,,,,,,,10,10,12,,ACTIV,แสงงาม
+,265,EE22-04,สวิตซ์ไฟหรี่ไฟ / 300W / 220V / WEG57813 / Panasonic,-,WEG57813,Panasonic,-,300W 3.,220,-,-,300W,EA,30,1,20,,,,,,,,,,,,,,0,20,Dead Stock,INACTIVE,ออนไลน์
+,266,EE22-05,สวิตซ์ 2 ทาง / 16A / 250V / WEG5002k / Panasonic,-,WEG5002k,Panasonic,-,2V 1.,250,-,-,2V,EA,30,1,10,,,,,,,,,1,,,,,1,9,,ACTIV,58ไร่
+,267,EE22-06,สวิตซ์กระตุก / 2A / 250V,-,-,-,-,2 2 2.,250,-,-,2 2,EA,400,1,200,,,,,,,2,3,7,20,,,,32,168,,ACTIV,ออนไลน์
+,268,EE22-07,สวิตซ์ 3 ทาง / 16A / 250V / WNG5002-701/Panasonic,-,WNG5002-701,Panasonic,-,3A 1.,250,-,-,3A,EA,0,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,"Mega,แสงงาม"
+EE23,269,EE23-01,หน้ากากเต้ารับ ปลั๊กซ์-สวิตซ์ WNG6803WK / Panasonic,-,WNG6803WK,Panasonic,-,-,-,-,-,-,Ea,30,1,18,,,,,,,3,5,,1,,,,9,9,,ACTIV,"Mega,แสงงาม"
+,270,EE23-02,หน้ากาก ปลั๊กซ์-สวิตซ์ 4 ช่อง / Panasonic,-,,Panasonic,-,-,-,-,-,4 ช่อง,EA,30,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,271,EE23-03,หน้ากาก ปลั๊กซ์-สวิตซ์ 2 ช่อง / WEG6802WK / Panasonic,-,,,,2ช่อง W.,,-,-,2ช่อง,EA,30,1,24,,,,,2,,,,,,,,,2,22,,ACTIV,"Mega,แสงงาม"
+,272,EE23-04,หน้ากาก LAN 1 Pont / Link,-,,,,1หน้ากาก L.,,-,-,1หน้ากาก,EA,30,1,13,,,,,,,,,,,,,,0,13,Dead Stock,INACTIVE,ออนไลน์
+,273,EE23-05,หน้ากากกันน้ำแบบลอย / A8-W222 R/S (115x73x57 cm) / Haco,-,,,,8x A.,,-,-,8x,EA,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,Mega
+,274,EE23-06,ฝาพลาสติก1 ช่อง สีขาว WEG6801,-,,,,1ฝาพลาสติก W.,,-,-,ฝาพลาสติก,EA,5,1,3,,,,,,,,,1,,,,,1,2,,ACTIV,"Mega,แสงงาม"
+,275,EE23-07,ฝาพลาสติิกปิดเรียบ สีขาว WEG6891,-,,,,1ฝาพลาสติก W.,,-,-,ฝาพลาสติก,EA,5,1,8,,,,,,,,,,,,,,0,8,Dead Stock,INACTIVE," Mega,แสงงาม"
+EE24,276,EE24-01,ขั้ว หลอดไฟ / ?,,,,,?.,,,,,Ea,50,1,37,,,,,,,,,,,,,,0,37,Dead Stock,INACTIVE,58ไร่
+,277,EE24-02,ขั้ว หลอดไฟเซรามิก (แบบแป้น) สำหรับขั้ว E27,,,,แบบแป้น,27หลอดไฟเซรามิก ส.,,,E27,27หลอดไฟเซรามิก,Ea,50,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,58ไร่
+,278,EE24-03,ขั้ว หลอดไฟเซรามิก (ขั้วห้อย) สำหรับขั้ว E27,,,,แบขั้วห้อย,27หลอดไฟเซรามิก ส.,,,,27หลอดไฟเซรามิก,EA,100,1,32,,,,,,,,,,2,,,,2,30,,ACTIV,58ไร่
+,279,EE24-04,สตาร์ทเตอร์ FL10 STNGLE 4-G5W / Panasonic,,,,,10STNGLE P.,,,,10STNGLE,EA,50,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,ออนไลน์
+,280,EE24-05,ขั้ว หลอดไฟส่องหลวงปู่,,,,,ลวปู ห.,,,,ลวปู,EA,30,1,9,,,,,,,,,,,,,,0,9,Dead Stock,INACTIVE,ออนไลน์
+EE25,281,EE25-01,Ammeter / SD-96A / 250V / Class 1.5 / QUBTX,,,,,96A S.,,,,96A,EA,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,ออนไลน์
+,282,EE25-02,Voltmeter / SD-96V / 500V / Class 1.5 / QUBTX,,,,,96V S.,,,,96V,EA,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+,283,EE25-03,Power Meter With LAN / IPM310A50-1101-1 / 5Amp / LEOS,,,,,310IPM I.,,,,310IPM,EA,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,ออนไลน์
+EE26,284,EE26-01,ลำโพง LHM0626100 / 6W / 100V / BOSCH,,,,,0626100LHM 6.,,,,0626100LHM,EA,15,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,ภัทรรุ่งโรจน์
+,285,EE26-02,โวลุ่มเสียงตามสาย DC24V / TOA,,,,,24โวลุ่มเสียงตามสาย T.,,,,24โวลุ่มเสียงตามสาย,EA,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,AT Pro
+EE27,286,EE27-01,No Touch Exit Sensor / HIP,,,,,SensorTouch H.,,,,SensorTouch,EA,5,1,7,,,,,,,,,,,,,,0,7,Dead Stock,INACTIVE,ออนไลน์
+,287,EE27-02,แม่เหล็กติดประตู Access,,,,,Access ู.,,,,Access,EA,50,1,19,,,,,,,,,,,,,,0,19,Dead Stock,INACTIVE,ออนไลน์
+,288,EE27-03,Emergency Break Glass,,,,,Gllass E.,,,,Gllass,EA,5,1,14,,,,,,,,,,,,,,0,14,Dead Stock,INACTIVE,ออนไลน์
+,289,EE27-04,Brazzer ประตู Acc. Kepo C2612LA DC-12 V,,,,,K.,,,,,EA,5,1,41,,,,,,,,,,,,,,0,41,Dead Stock,INACTIVE,ออนไลน์
+EE28,290,EE28-01,ฐานหัว Smoke,,,,,,,,,,EA,5,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,Promatric
+,291,EE28-02,Smoke Pressurized,,,,,e.,,,,,EA,5,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,Promatric
+,292,EE28-03,Heat Detector Head TC808B1058 / Honeywell,,,,,808Head H.,,,,808Head,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Promatric
+,293,EE28-04,Smoke Detector,,,,,S.,,,,,EA,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Promatric
+,294,EE28-05,Monitor Mudule / TC809A1059,,,,,809Monitor T.,,,,809Monitor,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Promatric
+,295,EE28-06,Interface Mudule / TC841A1000,,,,,841Interface T.,,,,841Interface,EA,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Promatric
+,296,EE28-07,Control Mudule / TC-810N1013,,,,,810Control T.,,,,810Control,EA,5,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,Promatric
+,297,EE28-08,Mini Monitor Mudule / TC809B1008,,,,,809Monitor T.,,,,809Monitor,EA,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Promatric
+,298,EE28-09,FCM1/Control Mudule /N04-3500-001C/S3705/Notifier,,,,,,,,,,,-,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Promatric
+EE29,299,EE29-01,Pull Down HPS-SAH,,,,,SAHPull D.,,,,SAHPull,EA,5,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Promatric
+,300,EE29-02,Stobelight 1 21HN40 / SYSTEM SENSOR,,,,,1สต๊กไลท์ S.,,,,1สต๊กไลท์,EA,80,1,58,,,,,,,,,,,,,,0,58,Dead Stock,INACTIVE,Promatric
+EE30,301,EE30-01,สาย LAN สีฟ้า CAT6 BLUE 4FEET,,,,,6สีฟ้า C.,,,,6สีฟ้า,เส้น,30,1,11,,,,,,,,,,,,,,0,11,Dead Stock,INACTIVE,"Mega,ออนไลน์"
+,302,EE30-02,สาย LAN สีเหลือง 360GS10E-YL-10FT,,,,,360GS 3.,,,,360GS,เส้น,30,1,24,,,,,,,,,1,,,,,1,23,,ACTIV,ออนไลน์
+,303,EE30-03,สาย Lan CAT6/OUTDOOR/4P/CMX/BLACK,,US-9106OUT,LINK,OUTDOOR,25.5X46X46CM P.,,,,25.5X46X46CM,เมตร,0,1,300,,,,,,,,,43,,,,,43,257,,ACTIV,ออนไลน์
+EE31,304,EE31-01,ตัวล็อกหัวสาย LAN PSL-DCPLX,,,,,DCPLXตัวล็อกหัวสาย L.,,,,DCPLXตัวล็อกหัวสาย,EA,600,1,592,,,,,,,,,,,,,,0,592,Dead Stock,INACTIVE,ออนไลน์
+,305,EE31-02,CAT6 LOCKING PLUG BOT BLUE,,US-6624A,LINK,,6LOCKING B.,,,,6LOCKING,EA,5,1,24,,,,,,1,,,,,,,,1,23,,ACTIV,ออนไลน์
+,306,EE31-03,"CAT 6 In-Line Coupler,For Patch Panel ตัวต่อสาย lan",,,,,6Patch C.,,,,6Patch,EA,5,1,36,,,,,,,,2,1,,,,,3,33,,ACTIV,ออนไลน์
+,307,EE31-04,LAN CAT6 RJ45 PLUG,,US-1002,LINK,,6LAN P.,,,,6LAN,เส้น,50,1,85,,,,,,,,,9,,,,,9,76,,ACTIV,ออนไลน์
+,308,EE31-05,หัวGNB ใช้กับสายRG6,,,,,ย.,,,,,EA,10,1,6,,,,,,,,,1,,,,,1,5,,ACTIV,ออนไลน์
+,309,EE31-07,"หน้ากากเต้ารับสาย Lan 2 ช่อง,มีป้ายชื่อ/สีขาว",,US-2002 WH WHITE,LINK,,2Lan ช.,,,,2Lan,แผง,0,1,5,,,,,,,,,1,1,,,,2,3,,ACTIV,ออนไลน์
+,310,EE31-08,"CAT 6 RJ 45 Slim Modular Jack,Slim",,US-1006SL,LINK,,6Slim 4.,,,,6Slim,แผง,0,1,18,,,,,,,,,1,,,,,1,17,,ACTIV,ออนไลน์
+EE32,311,EE32-01,ปอกหัวสายไฟ V-22GY เทา,,,,,22ปอกหัวสายไฟ V.,,,,22ปอกหัวสายไฟ,EA,50,1,38,,,,,,,,,,,,,,0,38,Dead Stock,INACTIVE,ออนไลน์
+,312,EE32-02,ปอกหัวสายไฟ V-38ฑ เทา,,,,,38ปอกหัวสายไฟ V.,,,,38ปอกหัวสายไฟ,EA,50,1,39,,,,,,,,,,,,,,0,39,Dead Stock,INACTIVE,ออนไลน์
+,313,EE32-03,ปอกหัวสายไฟ V-22GY ดำ,,,,,22ปอกหัวสายไฟ V.,,,,22ปอกหัวสายไฟ,EA,50,1,37,,,,,,,,,,,,,,0,37,Dead Stock,INACTIVE,ออนไลน์
+,314,EE32-04,ปอกหัวสายไฟ V-38BR เทา,,,,,38ปอกหัวสายไฟ V.,,,,38ปอกหัวสายไฟ,EA,50,1,39,,,,,,,,,,,,,,0,39,Dead Stock,INACTIVE,ออนไลน์
+,315,EE32-05,ปอกหัวสายไฟ V-22GY น้ำตาล,,,,,22ปอกหัวสายไฟ V.,,,,22ปอกหัวสายไฟ,EA,50,1,35,,,,,,,,,,,,,,0,35,Dead Stock,INACTIVE,ออนไลน์
+,316,EE32-06,ปอกหัวสายไฟ V-38BR น้ำตาล,,,,,38ปอกหัวสายไฟ V.,,,,38ปอกหัวสายไฟ,EA,50,1,39,,,,,,,,,,,,,,0,39,Dead Stock,INACTIVE,ออนไลน์
+,317,EE32-07,ปอกหัวสายไฟ V-22GY น้ำเงิน,,,,,22ปอกหัวสายไฟ V.,,,,22ปอกหัวสายไฟ,EA,50,1,40,,,,,,,,,,,,,,0,40,Dead Stock,INACTIVE,ออนไลน์
+,318,EE32-08,ปอกหัวสายไฟ V-38BR น้ำเงิน,,,,,38ปอกหัวสายไฟ V.,,,,38ปอกหัวสายไฟ,EA,50,1,43,,,,,,,,,,,,,,0,43,Dead Stock,INACTIVE,ออนไลน์
+,319,EE33,พัดลมระบายความร้อน,,,,,้.,,,,,EA,30,1,10,,,,,,,,,,,,,,0,10,Dead Stock,INACTIVE,ออนไลน์
+,320,EE34,Limit Switch head ZCKD15,,,,,15Linit Z.,,,,15Linit,EA,10,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,ออนไลน์
+,321,EE35,กล่องไฟ (พลาสติก),,,,,ก.,,,,,EA,10,1,8,,,,,,,,,1,,,,,1,7,,ACTIV,ออนไลน์
+EE36,322,EE36-01,สายไฟ THW 1x1.5 Sq.mm. สีเขียว ( G ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,323,EE36-02,สายไฟ THW 1x1.5 Sq.mm. สีฟ้า ( N ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,200,,,,,,,,,,,,,,0,200,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,324,EE36-03,สายไฟ THW 1x1.5 Sq.mm. สีเทา ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,325,EE36-04,สายไฟ THW 1x1.5 Sq.mm. สีดำ ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,326,EE36-05,สายไฟ THW 1x1.5 Sq.mm. สีน้ำตาล ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,327,EE36-06,สายไฟ THW 1x2.5 Sq.mm. สีเขียวแถบเหลือง ( G ),,60227 IEC01,YAZAKI,,1x2.5/100 S.,450/750,สีเขียวแถบเหลือง,,1x2.5/100,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,328,EE36-07,สายไฟ THW 1x2.5 Sq.mm. สีฟ้า ( N ),,60227 IEC01,YAZAKI,,1x2.5/100 S.,450/750,สีฟ้า,,1x2.5/100,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,329,EE36-08,สายไฟ THW 1x2.5 Sq.mm. สีเทา ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,330,EE36-09,สายไฟ THW 1x2.5 Sq.mm. สีดำ ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,331,EE36-10,สายไฟ THW 1x2.5 Sq.mm. สีขาว ( L ),-,60227 IEC01,YAZAKI,THW,1Sq S.,450/750,ขาว,-,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,332,EE36-11,สายไฟ THW 1x4 Sq.mm. สีเขียวแถบเหลือง ( G ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,200,,,,,,,,,,,,,100,0,300,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,333,EE36-12,สายไฟ THW 1x4 Sq.mm. สีฟ้า ( N ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,334,EE36-13,สายไฟ THW 1x4 Sq.mm. สีดำ ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,300,,,,,,,,,,,,,,0,300,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,335,EE36-14,สายไฟ THW 1x4 Sq.mm. สีขาว ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,336,EE36-15,สายไฟ THW 1x4 Sq.mm. สีแดง ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,200,,,,,,,,,,,,,,0,200,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,337,EE36-16,สายไฟ THW 1x6 Sq.mm. สีเขียว ( G ) เมตร,,,,,,,,,,เมตร,500,100,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,338,EE36-17,สายไฟ THW 1x6 Sq.mm. สีฟ้า ( N ),,,,,,,,,,เมตร,500,100,400,,,,,,,,,,,,,,0,400,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,339,EE36-18,สายไฟ THW 1x6 Sq.mm. สีดำ ( L ),,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,100,0,200,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,340,EE36-19,สายไฟ THW 1x6 Sq.mm. สีขาว ( L ),,,,,,,,,,เมตร,500,100,300,,,,,,,,,,,,,,0,300,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,341,EE36-20,สายไฟ THW 1x6 Sq.mm. สีแดง ( L ),,,,,,,,,,เมตร,500,100,0,,,,,,,,,,,,,,0,,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,342,EE36-21,สายไฟ VCT 2x2.5 Sq.mm. สีดำ,,,,,2x S.,,,,2x,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,343,EE36-22,สายไฟ VCT 2x1 Sq.mm. สีดำ,,,,,2x S.,,,,2x,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,344,EE36-23,สายไฟ THW 1x10 Sq.mm. สีดำ เมตร,,,,,1x S.,,,,1x,,-,100,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,345,EE36-24,สายไฟ THW 1x2.5 Sq.mm. สีน้ำตาล ( L ),,60227 IEC01,YAZAKI,,1x2.5/100 S.,450/750,สีฟ้า,,1x2.5/100,เมตร,500,100,200,,,,,,,,,,,,,,0,200,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,346,EE36-25,สายไฟ THW 1x1.5 Sq.mm. สีน้ำเหลือง ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,347,EE36-26,สายไฟ THW 1x2.5 Sq.mm. สีน้ำแดง ( L ) เมตร,,,,,1Sq S.,,,,1Sq,เมตร,500,100,200,,,,,,,7,,,23,,,,30,170,,ACTIV,"Mega,แสงงาม"
+,348,EE36-27,สายไฟ VFS 1x2.5 Sq.mm. สีน้ำฟ้า ( L ),,,,,1Sq S.,,,,1Sq,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,349,EE36-28,สายไฟ THW 1x4 Sq.mm. สีน้ำตาล ( L ),,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,350,EE36-29,สายไฟ THW 1x4 Sq.mm. สีเทา ( L ),,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,351,EE36-30,สายไฟ THW 1x6 Sq.mm. สีน้ำตาล,,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,352,EE36-31,สายไฟ THW 1x6 Sq.mm. สีเทา,,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,353,EE36-32,สายไฟ VFS 1x2.5 Sq.mm. สีเขียว,,,,,,,,,,เมตร,500,100,100,,,,,,,,,,,,,,0,100,Dead Stock,INACTIVE,"Mega,แสงงาม"
+,354,EE37,บอร์ดพัดลมเพดาน,ห้องสำนักงาน,-,-,-,-,220,-,-,-,EA,30,5,8,,,,,,,3,3,4,3,,,39,13,34,,ACTIV,ออนไลน์
+,355,EE38,กล้องวงจรปิด AXIS รุ่น M3004-V,ภายในอาคาร,-,AXIS,ขั้วเสียบสาย Lan,-,-,-,-,-,ตัว,5,1,0,,,,,,,,,,,,,,0,0,Dead Stock,INACTIVE,Ebay
+EE39,356,EE39-01,พาวเวอร์ปลั๊ก ตัวเมีย ติดผนัง 400/3P/32A/4 พิน/IP44/สีแดง,-,124-6,HaCo,IP44,32 A.,400,แดง,-,155x70x107 mm,EA,-,1,3,,,,,,,,,,,,,,0,3,Dead Stock,INACTIVE,Mega
+,357,EE39-02,พาวเวอร์ปลั๊ก ตัวเมีย ติดผนัง 230/3P/32A/3 พิน/IP44/สีน้ำเงิน,-,123-6,HaCo,IP44,32 A.,230,น้ำเงิน,-,155x70x107 mm,EA,-,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,Mega
+,358,EE39-03,พาวเวอร์ปลั๊ก ตัวเมีย ติดผนัง 230/3P/16A/3 พิน/IP44/สีน้ำเงิน,-,113-6,HaCo,IP44,16 A.,230,น้ำเงิน,-,142x70x98 mm,EA,-,1,6,,,,,,,,,,,,,,0,6,Dead Stock,INACTIVE,Mega
+,359,EE39-04,ปลั๊กและเต้ารับ 4ทาง/ 220v/16A/2P+E/IP44/1ออก3,-,P1-013Y,SUMO,IP44,16 A.,220,น้ำเงิน,-,4 ทาง,EA,-,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Mega
+,360,EE39-05,พาวเวอร์ปลั๊กตัวผู้ 230/32A/2P+E,-,023-6V,Power max,-,32 A.,230,น้ำเงิน,-,-,EA,-,1,4,,,,,,,,,,,,,,0,4,Dead Stock,INACTIVE,Mega
+,361,EE39-06,พาวเวอร์ปลั๊กตัวผู้ 230/16A/2P+E,-,013-6V,Power max,-,16 A.,230,น้ำเงิน,-,-,EA,-,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,Mega
+,362,EE39-07,พาวเวอร์ปลั๊กตัวผู้ 220/16A/2P+E/IP44,-,P1-013-6H,SUMO,IP44,16 A.,220,น้ำเงิน,,-,EA,-,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,Mega
+,363,EE39-08,เต้ารับตัวเมียต่อกลาง 220/16A/2P+E/IP44,-,P1-013-6H,SUMO,IP44,16 A.,220,น้ำเงิน,,-,EA,-,1,5,,,,,,,,,,,,,,0,5,Dead Stock,INACTIVE,Mega
+,364,EE42,สวิสซ์เปิด ปิด ไฟแดง,10,0,5,,,,,,,,10,1,4,,,,,,,,,1,,,,,1,3,,ACTIV,58ไร่
+,365,EE43,กล่องเบรกเกอร์ National,0,0,2,,,,,,,,0,1,1,,,,,,,,,,,,,,0,1,Dead Stock,INACTIVE,Mega
+,366,EE44,โคมไฟ กันน้ำ กันฝุ่น(สำหรับหลอด LED/T8/1xL1200)IP65/DOUBLE,-,-,2,,,,,,,,-,1,2,,,,,,,,,,,,,,0,2,Dead Stock,INACTIVE,Mega

@@ -1,0 +1,10 @@
+{
+  "name": "Master Store100Y (Spare Parts Management)",
+  "description": "ระบบจัดการสต๊อกอะไหล่ครบวงจร รองรับสแกนบาร์โค้ดผ่านสมาร์ทโฟน เบิกสินค้า แจ้งเตือนสินค้าใกล้หมด ระบบสิทธิ์พนักงานและผู้ดูแล ซิงค์ข้อมูลกับ Google Sheets",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
