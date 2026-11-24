@@ -22,8 +22,11 @@ import {
   Image as ImageIcon,
   Camera,
   Upload,
+  Calendar,
+  Building2,
+  ShieldCheck,
 } from 'lucide-react';
-import { PartItem, UserRole } from '../types/inventory';
+import { PartItem, StockInPayload, UserRole } from '../types/inventory';
 import { LowStockAlertBanner } from '../components/LowStockAlertBanner';
 import { ImagePreviewModal } from '../components/ImagePreviewModal';
 
@@ -33,7 +36,7 @@ interface InventoryManageViewProps {
   onAddPart: (part: Omit<PartItem, 'id' | 'updatedAt'>) => void;
   onUpdatePart: (part: PartItem) => void;
   onDeletePart: (partId: string) => void;
-  onStockIn: (partId: string, quantity: number, supplierRef?: string, notes?: string) => void;
+  onStockIn: (payload: StockInPayload) => void;
   onSelectRequisition: (part: PartItem) => void;
   onOpenLabelModal: (part: PartItem) => void;
   onOpenScannerForSearch: () => void;
@@ -221,21 +224,6 @@ export const InventoryManageView: React.FC<InventoryManageViewProps> = ({
               <Download className="w-3.5 h-3.5" />
               <span>ส่งออก CSV</span>
             </button>
-
-            {userRole === 'admin' && onResetTo100Y && (
-              <button
-                onClick={() => {
-                  if (window.confirm('ต้องการโหลดฐานข้อมูลอะไหล่ Master Store 100 ปี (373 รายการ) ตามไฟล์ต้นฉบับหรือไม่?')) {
-                    onResetTo100Y();
-                  }
-                }}
-                className="px-3 py-2 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 rounded-xl text-xs font-medium transition flex items-center gap-1.5"
-                title="โหลดฐานข้อมูลเดิม Master Store 100Y (373 รายการ)"
-              >
-                <Database className="w-3.5 h-3.5 text-amber-600" />
-                <span className="hidden sm:inline">โหลด Master 100Y</span>
-              </button>
-            )}
 
             {userRole === 'admin' ? (
               <button
@@ -632,8 +620,8 @@ export const InventoryManageView: React.FC<InventoryManageViewProps> = ({
         <StockInModal
           part={stockInPart}
           onClose={() => setStockInPart(null)}
-          onConfirm={(qty, supplierRef, notes) => {
-            onStockIn(stockInPart.id, qty, supplierRef, notes);
+          onConfirm={(payload) => {
+            onStockIn(payload);
             setStockInPart(null);
           }}
         />
@@ -1008,24 +996,41 @@ const AddOrEditPartModal: React.FC<AddOrEditPartModalProps> = ({
 interface StockInModalProps {
   part: PartItem;
   onClose: () => void;
-  onConfirm: (qty: number, supplierRef?: string, notes?: string) => void;
+  onConfirm: (payload: StockInPayload) => void;
 }
+
+const MODAL_WARRANTY_PRESETS = [
+  'ไม่มีการรับประกัน',
+  'รับประกัน 6 เดือน',
+  'รับประกัน 1 ปี (เสียเปลี่ยนตัวใหม่ตามเงื่อนไข)',
+  'รับประกัน 2 ปี',
+];
 
 const StockInModal: React.FC<StockInModalProps> = ({ part, onClose, onConfirm }) => {
   const [qty, setQty] = useState(10);
-  const [supplierRef, setSupplierRef] = useState('');
+  const [importDate, setImportDate] = useState(() => new Date().toISOString().slice(0, 10));
+  const [vendor, setVendor] = useState('');
+  const [warranty, setWarranty] = useState('');
   const [notes, setNotes] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (qty <= 0) return;
-    onConfirm(qty, supplierRef.trim(), notes.trim());
+    if (!importDate || !vendor.trim()) return;
+    onConfirm({
+      partId: part.id,
+      quantity: qty,
+      importDate,
+      vendor: vendor.trim(),
+      warranty: warranty.trim() || 'ไม่มีการรับประกัน',
+      notes: notes.trim(),
+    });
   };
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 bg-black/70 backdrop-blur-sm animate-in fade-in">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden flex flex-col">
-        <div className="px-5 py-4 bg-emerald-800 text-white flex items-center justify-between">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden flex flex-col max-h-[92vh]">
+        <div className="px-5 py-4 bg-emerald-800 text-white flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2">
             <PackagePlus className="w-5 h-5 text-emerald-300" />
             <h3 className="font-bold text-sm">รับอะไหล่เข้าสต๊อก (Stock In)</h3>
@@ -1035,7 +1040,7 @@ const StockInModal: React.FC<StockInModalProps> = ({ part, onClose, onConfirm })
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} className="p-5 space-y-3.5 text-xs">
+        <form onSubmit={handleSubmit} className="p-5 space-y-3.5 text-xs overflow-y-auto">
           <div className="p-3 bg-slate-50 rounded-xl border border-slate-200">
             <div className="font-bold text-slate-900 text-sm leading-tight">{part.name}</div>
             <div className="flex items-center gap-3 mt-1.5 text-slate-600">
@@ -1049,41 +1054,93 @@ const StockInModal: React.FC<StockInModalProps> = ({ part, onClose, onConfirm })
             </div>
           </div>
 
-          <div>
-            <label className="block font-semibold text-slate-700 mb-1">
-              จำนวนที่รับเข้า ({part.unit}) <span className="text-rose-500">*</span>
-            </label>
-            <input
-              type="number"
-              min="1"
-              required
-              value={qty}
-              onChange={(e) => setQty(Number(e.target.value))}
-              autoFocus
-              className="w-full px-3.5 py-2.5 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 font-mono text-base font-bold text-slate-900"
-            />
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <label className="block font-semibold text-slate-700 mb-1">
+                1. จำนวนที่รับเข้า ({part.unit}) <span className="text-rose-500">*</span>
+              </label>
+              <input
+                type="number"
+                min="1"
+                required
+                value={qty}
+                onChange={(e) => setQty(Number(e.target.value))}
+                autoFocus
+                className="w-full px-3.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 font-mono text-sm font-bold text-slate-900"
+              />
+            </div>
+
+            <div>
+              <label className="block font-semibold text-slate-700 mb-1">
+                2. วันที่นำเข้า <span className="text-rose-500">*</span>
+              </label>
+              <div className="relative">
+                <Calendar className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+                <input
+                  type="date"
+                  required
+                  value={importDate}
+                  onChange={(e) => setImportDate(e.target.value)}
+                  className="w-full pl-8 pr-2.5 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 font-medium text-slate-800"
+                />
+              </div>
+            </div>
           </div>
 
           <div>
             <label className="block font-semibold text-slate-700 mb-1">
-              ผู้จัดจำหน่าย / เลขที่ใบสั่งซื้อ (PO# / Supplier)
+              3. Vendor (ผู้จำหน่าย) <span className="text-rose-500">*</span>
             </label>
-            <input
-              type="text"
-              value={supplierRef}
-              onChange={(e) => setSupplierRef(e.target.value)}
-              placeholder="เช่น PO-2026-091, บจก. สยามแมชชีน"
-              className="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600"
+            <div className="relative">
+              <Building2 className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+              <input
+                type="text"
+                required
+                value={vendor}
+                onChange={(e) => setVendor(e.target.value)}
+                placeholder="เช่น บจก. แสงงาม อิเล็คทริค, Mega"
+                className="w-full pl-8 pr-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600"
+              />
+            </div>
+          </div>
+
+          <div className="bg-slate-50 p-3 rounded-xl border border-slate-200 space-y-1.5">
+            <label className="block font-semibold text-slate-700 flex items-center gap-1">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+              <span>4. การรับประกันและเงื่อนไข</span>
+            </label>
+            <div className="flex flex-wrap gap-1">
+              {MODAL_WARRANTY_PRESETS.map((preset) => (
+                <button
+                  key={preset}
+                  type="button"
+                  onClick={() => setWarranty(preset)}
+                  className={`px-2 py-0.5 rounded-md text-[10px] font-medium border transition ${
+                    warranty === preset
+                      ? 'bg-emerald-700 text-white border-emerald-700'
+                      : 'bg-white text-slate-600 border-slate-200 hover:bg-emerald-50'
+                  }`}
+                >
+                  {preset}
+                </button>
+              ))}
+            </div>
+            <textarea
+              rows={2}
+              value={warranty}
+              onChange={(e) => setWarranty(e.target.value)}
+              placeholder="ระบุระยะเวลารับประกันและเงื่อนไข เช่น รับประกัน 1 ปี เสียเปลี่ยนใหม่ภายใน 7 วัน"
+              className="w-full px-3 py-2 rounded-xl border border-slate-300 bg-white focus:outline-none focus:ring-2 focus:ring-emerald-600"
             />
           </div>
 
           <div>
-            <label className="block font-semibold text-slate-700 mb-1">หมายเหตุการรับเข้า</label>
+            <label className="block font-semibold text-slate-700 mb-1">หมายเหตุเพิ่มเติม / เลขที่ใบสั่งซื้อ (PO)</label>
             <input
               type="text"
               value={notes}
               onChange={(e) => setNotes(e.target.value)}
-              placeholder="เช่น ตรวจรับครบถ้วน, สต๊อกสำรองเร่งด่วน"
+              placeholder="เช่น PO-2026-091, ตรวจรับครบถ้วน"
               className="w-full px-3 py-2 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-600"
             />
           </div>

@@ -19,9 +19,10 @@ import {
   setStoredSpreadsheetId,
   resetTo100YMasterParts,
 } from './services/storage';
-import { PartItem, RequisitionRecord, StockInRecord, UserRole, SheetsSyncState } from './types/inventory';
+import { PartItem, RequisitionRecord, StockInPayload, StockInRecord, UserRole, SheetsSyncState } from './types/inventory';
 import { Navigation, ActiveTab } from './components/Navigation';
 import { InventoryManageView } from './views/InventoryManageView';
+import { StockInView } from './views/StockInView';
 import { RequisitionView } from './views/RequisitionView';
 import { ReportView } from './views/ReportView';
 import { BarcodeScannerModal } from './components/BarcodeScannerModal';
@@ -43,11 +44,12 @@ export default function App() {
 
   // Inter-tab selections
   const [selectedPartForRequisition, setSelectedPartForRequisition] = useState<PartItem | null>(null);
+  const [selectedPartForStockIn, setSelectedPartForStockIn] = useState<PartItem | null>(null);
   const [externalSearchBarcode, setExternalSearchBarcode] = useState<string | null>(null);
 
   // Modals
   const [isScannerOpen, setIsScannerOpen] = useState(false);
-  const [scannerContext, setScannerContext] = useState<'general' | 'search' | 'requisition'>('general');
+  const [scannerContext, setScannerContext] = useState<'general' | 'search' | 'requisition' | 'stockin'>('general');
   const [labelPart, setLabelPart] = useState<PartItem | null>(null);
   const [isSheetsModalOpen, setIsSheetsModalOpen] = useState(false);
 
@@ -189,18 +191,13 @@ export default function App() {
   };
 
   // Stock In (Admin)
-  const handleStockIn = (
-    partId: string,
-    quantity: number,
-    supplierRef?: string,
-    notes?: string
-  ) => {
-    const target = parts.find((p) => p.id === partId);
+  const handleStockIn = (payload: StockInPayload) => {
+    const target = parts.find((p) => p.id === payload.partId);
     if (!target) return;
 
     const updatedParts = parts.map((p) =>
-      p.id === partId
-        ? { ...p, quantity: p.quantity + quantity, updatedAt: new Date().toISOString() }
+      p.id === payload.partId
+        ? { ...p, quantity: p.quantity + payload.quantity, updatedAt: new Date().toISOString() }
         : p
     );
     setParts(updatedParts);
@@ -208,14 +205,17 @@ export default function App() {
     const newRecord: StockInRecord = {
       id: `STK-IN-${Date.now().toString().slice(-6)}`,
       timestamp: new Date().toISOString(),
-      partId,
+      importDate: payload.importDate || new Date().toISOString().slice(0, 10),
+      partId: payload.partId,
       partName: target.name,
       barcode: target.barcode,
-      quantity,
+      quantity: payload.quantity,
       unit: target.unit,
-      supplierOrRef: supplierRef,
+      vendor: payload.vendor,
+      warranty: payload.warranty,
+      supplierOrRef: payload.vendor,
       recordedBy: currentUserName,
-      notes,
+      notes: payload.notes,
     };
 
     const updatedStockIns = [newRecord, ...stockIns];
@@ -226,6 +226,30 @@ export default function App() {
       getAccessToken().then((token) => {
         if (token && syncState.spreadsheetId) {
           appendStockInToSheets(token, syncState.spreadsheetId, newRecord).catch(console.error);
+          syncAllToSheets(token, syncState.spreadsheetId, updatedParts, requisitions, updatedStockIns).catch(console.error);
+        }
+      });
+    }
+  };
+
+  // Delete Stock In Record & Reverse Quantity (Admin)
+  const handleDeleteStockIn = (stockInId: string) => {
+    const record = stockIns.find((s) => s.id === stockInId);
+    if (!record) return;
+
+    const updatedParts = parts.map((p) =>
+      p.id === record.partId
+        ? { ...p, quantity: Math.max(0, p.quantity - record.quantity), updatedAt: new Date().toISOString() }
+        : p
+    );
+    setParts(updatedParts);
+
+    const updatedStockIns = stockIns.filter((s) => s.id !== stockInId);
+    setStockIns(updatedStockIns);
+
+    if (syncState.spreadsheetId) {
+      getAccessToken().then((token) => {
+        if (token && syncState.spreadsheetId) {
           syncAllToSheets(token, syncState.spreadsheetId, updatedParts, requisitions, updatedStockIns).catch(console.error);
         }
       });
@@ -327,6 +351,12 @@ export default function App() {
       } else {
         alert(`ไม่พบข้อมูลอะไหล่ที่ตรงกับบาร์โค้ด "${scannedBarcode}" ในระบบ`);
       }
+    } else if (scannerContext === 'stockin') {
+      if (matchedPart) {
+        setSelectedPartForStockIn(matchedPart);
+      } else {
+        alert(`ไม่พบข้อมูลอะไหล่ที่ตรงกับบาร์โค้ด "${scannedBarcode}" ในระบบ`);
+      }
     } else if (scannerContext === 'search') {
       setExternalSearchBarcode(scannedBarcode);
       setActiveTab('inventory');
@@ -383,6 +413,22 @@ export default function App() {
           />
         )}
 
+        {activeTab === 'stockin' && (
+          <StockInView
+            parts={parts}
+            stockIns={stockIns}
+            userRole={userRole}
+            onStockInSubmit={handleStockIn}
+            onDeleteStockIn={handleDeleteStockIn}
+            onOpenScanner={() => {
+              setScannerContext('stockin');
+              setIsScannerOpen(true);
+            }}
+            selectedPartFromInventory={selectedPartForStockIn}
+            onClearSelectedPart={() => setSelectedPartForStockIn(null)}
+          />
+        )}
+
         {activeTab === 'requisition' && (
           <RequisitionView
             parts={parts}
@@ -419,6 +465,8 @@ export default function App() {
         title={
           scannerContext === 'requisition'
             ? 'สแกนเพื่อเบิกอะไหล่ (Scan to Requisition)'
+            : scannerContext === 'stockin'
+            ? 'สแกนเพื่อรับเข้าอะไหล่ (Scan to Stock In)'
             : 'สแกนบาร์โค้ดอะไหล่ (Scan Barcode)'
         }
         presetBarcodes={parts.map((p) => ({ barcode: p.barcode, name: p.name }))}

@@ -34,7 +34,7 @@ export async function createInventorySpreadsheet(accessToken: string): Promise<S
       {
         properties: {
           title: SHEET_STOCK_IN_NAME,
-          gridProperties: { rowCount: 1000, columnCount: 9, frozenRowCount: 1 },
+          gridProperties: { rowCount: 1000, columnCount: 11, frozenRowCount: 1 },
         },
       },
     ],
@@ -174,26 +174,30 @@ export async function syncAllToSheets(
   // 3. Prepare StockIn rows
   const stockInHeader = [
     'รหัสรายการ (ID)',
-    'วันเวลา (Timestamp)',
+    'วันที่นำเข้า (Import Date)',
     'รหัสสินค้า (Part ID)',
     'ชื่ออะไหล่ (Part Name)',
-    'จำนวนที่เพิ่ม (Qty)',
+    'จำนวนที่รับเข้า (Qty)',
     'หน่วย (Unit)',
-    'ผู้จัดจำหน่าย/เอกสารอ้างอิง (Supplier / PO)',
+    'Vendor (ผู้จำหน่าย)',
+    'การรับประกันและเงื่อนไข (Warranty & Conditions)',
     'ผู้บันทึก (Recorded By)',
     'หมายเหตุ (Notes)',
+    'เวลาที่บันทึกเข้าระบบ (Timestamp)',
   ];
 
   const stockInRows = stockIns.map((s) => [
     s.id,
-    new Date(s.timestamp).toLocaleString('th-TH'),
+    s.importDate || new Date(s.timestamp).toLocaleDateString('th-TH'),
     s.partId,
     s.partName,
     s.quantity,
     s.unit,
-    s.supplierOrRef || '',
+    s.vendor || s.supplierOrRef || '',
+    s.warranty || '',
     s.recordedBy,
     s.notes || '',
+    new Date(s.timestamp).toLocaleString('th-TH'),
   ]);
 
   // Send batch update values
@@ -209,7 +213,7 @@ export async function syncAllToSheets(
         values: [reqHeader, ...reqRows],
       },
       {
-        range: `'${SHEET_STOCK_IN_NAME}'!A1:I${stockInRows.length + 1}`,
+        range: `'${SHEET_STOCK_IN_NAME}'!A1:K${stockInRows.length + 1}`,
         values: [stockInHeader, ...stockInRows],
       },
     ],
@@ -280,18 +284,20 @@ export async function appendStockInToSheets(
 ): Promise<void> {
   const row = [
     record.id,
-    new Date(record.timestamp).toLocaleString('th-TH'),
+    record.importDate || new Date(record.timestamp).toLocaleDateString('th-TH'),
     record.partId,
     record.partName,
     record.quantity,
     record.unit,
-    record.supplierOrRef || '',
+    record.vendor || record.supplierOrRef || '',
+    record.warranty || '',
     record.recordedBy,
     record.notes || '',
+    new Date(record.timestamp).toLocaleString('th-TH'),
   ];
 
   await fetch(
-    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/'${SHEET_STOCK_IN_NAME}'!A:I:append?valueInputOption=USER_ENTERED`,
+    `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/'${SHEET_STOCK_IN_NAME}'!A:K:append?valueInputOption=USER_ENTERED`,
     {
       method: 'POST',
       headers: {

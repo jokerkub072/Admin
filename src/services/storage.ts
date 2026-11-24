@@ -1,9 +1,9 @@
 import { PartItem, RequisitionRecord, StockInRecord, UserRole } from '../types/inventory';
 import { MASTER_100Y_PARTS } from '../data/masterParts';
 
-const STORAGE_KEY_PARTS = 'master_store100y_parts_v4';
-const STORAGE_KEY_REQUISITIONS = 'master_store100y_requisitions_v2';
-const STORAGE_KEY_STOCK_IN = 'master_store100y_stock_in_v2';
+const STORAGE_KEY_PARTS = 'master_store100y_parts_v6';
+const STORAGE_KEY_REQUISITIONS = 'master_store100y_requisitions_v3';
+const STORAGE_KEY_STOCK_IN = 'master_store100y_stock_in_v3';
 const STORAGE_KEY_ROLE = 'spareparts_user_role_v1';
 const STORAGE_KEY_USER_NAME = 'spareparts_user_name_v1';
 const STORAGE_KEY_SHEETS_CONFIG = 'spareparts_sheets_config_v1';
@@ -17,79 +17,40 @@ export function naturalSortParts(parts: PartItem[]): PartItem[] {
   );
 }
 
-// Initial realistic requisitions referencing actual items from 100Y Masterfile
+// Initial realistic requisitions referencing the sample item
 const INITIAL_REQUISITIONS: RequisitionRecord[] = [
   {
     id: 'REQ-2026-001',
-    timestamp: new Date(Date.now() - 3600000 * 24).toISOString(),
+    timestamp: new Date(Date.now() - 3600000 * 4).toISOString(),
     partId: 'EE01-01',
-    partName: 'หลอดไฟ LED T8 / HIET / 18W / 3000K Warm White',
+    partName: 'หลอดไฟ LED T8 / HIET / 18W / 3000K Warm White (ตัวอย่าง)',
     barcode: 'EE01-01',
-    quantity: 21,
+    quantity: 5,
     unit: 'หลอด',
     requesterName: 'สมชาย รักการช่าง',
     department: 'แผนกซ่อมบำรุง (Maintenance)',
-    workOrderOrPurpose: 'เปลี่ยนหลอดไฟทางเดิน อาคาร 100 ปี ชั้น 2',
+    workOrderOrPurpose: 'ทดสอบระบบเบิกอะไหล่',
     recordedBy: 'ผู้ดูแลคลังสโตร์',
     status: 'completed',
-    notes: 'เปลี่ยนตามรอบตรวจเช็คสภาพ',
-  },
-  {
-    id: 'REQ-2026-002',
-    timestamp: new Date(Date.now() - 3600000 * 16).toISOString(),
-    partId: 'EE01-02',
-    partName: 'หลอดไฟ LED T8 / FSL / 22W / 4000K Cool White',
-    barcode: 'EE01-02',
-    quantity: 27,
-    unit: 'หลอด',
-    requesterName: 'วิชัย วิศวกรรม',
-    department: 'แผนกวิศวกรรมไฟฟ้า (Electrical)',
-    workOrderOrPurpose: 'ปรับปรุงระบบแสงสว่าง ห้องสำนักงาน',
-    recordedBy: 'วิชัย วิศวกรรม',
-    status: 'completed',
-    notes: 'เปลี่ยนแทนหลอดฟลูออเรสเซนต์เดิม',
-  },
-  {
-    id: 'REQ-2026-003',
-    timestamp: new Date(Date.now() - 3600000 * 8).toISOString(),
-    partId: 'EE06-04',
-    partName: 'ฟิวส์หลอดแก้ว 1A 250V 20mm.',
-    barcode: 'EE06-04',
-    quantity: 2,
-    unit: 'ชิ้น',
-    requesterName: 'ธวัชชัย ช่างกล',
-    department: 'แผนกอาคารสถานที่ (Facilities)',
-    workOrderOrPurpose: 'ซ่อมชุดเซนเซอร์ห้องน้ำ ชั้น 3',
-    recordedBy: 'ธวัชชัย ช่างกล',
-    status: 'completed',
-    notes: 'ฟิวส์เดิมขาดเนื่องจากไฟตก',
+    notes: 'ตัวอย่างบันทึกการเบิกอะไหล่',
   },
 ];
 
 const INITIAL_STOCK_IN: StockInRecord[] = [
   {
     id: 'STK-IN-001',
-    timestamp: new Date(Date.now() - 3600000 * 72).toISOString(),
-    partId: 'EE01-02',
-    partName: 'หลอดไฟ LED T8 / FSL / 22W / 4000K Cool White',
-    barcode: 'EE01-02',
-    quantity: 200,
+    timestamp: new Date(Date.now() - 3600000 * 24).toISOString(),
+    importDate: new Date(Date.now() - 3600000 * 24).toISOString().slice(0, 10),
+    partId: 'EE01-01',
+    partName: 'หลอดไฟ LED T8 / HIET / 18W / 3000K Warm White (ตัวอย่าง)',
+    barcode: 'EE01-01',
+    quantity: 100,
     unit: 'หลอด',
+    vendor: 'บจก. แสงงาม อิเล็คทริค',
+    warranty: 'รับประกัน 1 ปี (เสียเปลี่ยนตัวใหม่ตามเงื่อนไขผู้ผลิต)',
     supplierOrRef: 'บจก. แสงงาม อิเล็คทริค',
     recordedBy: 'ผู้ดูแลคลังสโตร์',
-    notes: 'รับสินค้าเข้าสต๊อกตามรอบ PO-2026',
-  },
-  {
-    id: 'STK-IN-002',
-    timestamp: new Date(Date.now() - 3600000 * 48).toISOString(),
-    partId: 'EE06-04',
-    partName: 'ฟิวส์หลอดแก้ว 1A 250V 20mm.',
-    barcode: 'EE06-04',
-    quantity: 200,
-    unit: 'ชิ้น',
-    supplierOrRef: 'ร้านค้าออนไลน์ฮาร์ดแวร์',
-    recordedBy: 'ผู้ดูแลคลังสโตร์',
-    notes: 'สำรองอะไหล่ประจำตู้คอนโทรล',
+    notes: 'รับสินค้าตัวอย่างเข้าสต๊อก',
   },
 ];
 
@@ -102,8 +63,7 @@ export function getLocalParts(): PartItem[] {
       return sorted;
     }
     const parsed = JSON.parse(raw);
-    if (!Array.isArray(parsed) || parsed.length < 350) {
-      // Migrate / ensure full 373 parts from 100Y Masterfile
+    if (!Array.isArray(parsed)) {
       const sorted = naturalSortParts(MASTER_100Y_PARTS);
       saveLocalParts(sorted);
       return sorted;
@@ -174,7 +134,14 @@ export function getLocalStockIn(): StockInRecord[] {
       saveLocalStockIn(INITIAL_STOCK_IN);
       return INITIAL_STOCK_IN;
     }
-    return JSON.parse(raw);
+    const parsed = JSON.parse(raw);
+    if (!Array.isArray(parsed)) return INITIAL_STOCK_IN;
+    return parsed.map((rec: StockInRecord) => ({
+      ...rec,
+      importDate: rec.importDate || (rec.timestamp ? rec.timestamp.slice(0, 10) : new Date().toISOString().slice(0, 10)),
+      vendor: rec.vendor || rec.supplierOrRef || '-',
+      warranty: rec.warranty || '-',
+    }));
   } catch (e) {
     console.error('Error loading stock in', e);
     return INITIAL_STOCK_IN;

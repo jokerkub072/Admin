@@ -33,14 +33,26 @@ export interface RequisitionRecord {
 
 export interface StockInRecord {
   id: string;
-  timestamp: string;
+  timestamp: string; // ISO string เวลาที่บันทึกรายการ
+  importDate: string; // วันที่นำเข้า (YYYY-MM-DD)
   partId: string;
   partName: string;
   barcode: string;
-  quantity: number;
+  quantity: number; // 1. จำนวน
   unit: string;
-  supplierOrRef?: string; // ผู้จำหน่าย หรือ เลขที่ใบสั่งซื้อ/ใบส่งของ PO#
+  vendor: string; // 3. Vender / ผู้จำหน่าย
+  warranty: string; // 4. การรับประกันและเงื่อนไข
+  supplierOrRef?: string; // ผู้จำหน่าย หรือ เลขที่ใบสั่งซื้อ/ใบส่งของ PO# (รองรับข้อมูลเดิม)
   recordedBy: string;
+  notes?: string;
+}
+
+export interface StockInPayload {
+  partId: string;
+  quantity: number;
+  importDate: string;
+  vendor: string;
+  warranty: string;
   notes?: string;
 }
 

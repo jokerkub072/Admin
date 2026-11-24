@@ -8,10 +8,11 @@ import {
   UserCheck,
   FileSpreadsheet,
   RotateCw,
+  PackagePlus,
 } from 'lucide-react';
 import { UserRole, SheetsSyncState } from '../types/inventory';
 
-export type ActiveTab = 'inventory' | 'requisition' | 'report';
+export type ActiveTab = 'inventory' | 'stockin' | 'requisition' | 'report';
 
 interface NavigationProps {
   activeTab: ActiveTab;
@@ -80,7 +81,20 @@ export const Navigation: React.FC<NavigationProps> = ({
             )}
           </button>
 
-          {/* 2. Requisition */}
+          {/* 2. Stock In & History */}
+          <button
+            onClick={() => setActiveTab('stockin')}
+            className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl text-xs font-semibold transition flex items-center gap-1.5 ${
+              activeTab === 'stockin'
+                ? 'bg-emerald-500 text-slate-950 shadow-md font-bold'
+                : 'text-slate-300 hover:text-white hover:bg-slate-800/70'
+            }`}
+          >
+            <PackagePlus className="w-4 h-4 shrink-0" />
+            <span className="whitespace-nowrap">รับเข้า & ประวัติ</span>
+          </button>
+
+          {/* 3. Requisition */}
           <button
             onClick={() => setActiveTab('requisition')}
             className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-xl text-xs font-semibold transition flex items-center gap-1.5 ${
